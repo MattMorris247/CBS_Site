@@ -6,7 +6,7 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {"assets/AssetManifest.bin": "0037427391c1a3eba9b588b5b104a71e",
 "assets/AssetManifest.json": "b84692127a2e427a984032edeaf1e18d",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "d8338defe56d3388c14f5044b9b231d1",
+"assets/fonts/MaterialIcons-Regular.otf": "a03a71945ca885aab605ae2a222d69f7",
 "assets/images/betonlineLogo.png": "a3915c381395a22769918bbcaf5db4bb",
 "assets/images/bovadaLogo.png": "748e2e2410163ec1550197e50a6fed20",
 "assets/images/CSBLogo(temp).JPG": "c276900c13b0394a33f2388118096578",
@@ -31,9 +31,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "0037427391c1a3eba9b588b5b104a71e
 "icons/Icon-512.png.png": "af1d85f4dc10fd28f50e1aea5f447b1b",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "9f35e217159fd26198bf58e4dee41ac4",
-"/": "9f35e217159fd26198bf58e4dee41ac4",
-"main.dart.js": "28d18312a5b1c44550cfc295761c9db3",
+"index.html": "32f1b299d9507a977507f854bd39c0c6",
+"/": "32f1b299d9507a977507f854bd39c0c6",
+"main.dart.js": "c0b38744da69a586ddd36053b4d43254",
 "manifest.json": "3fbc69a33496196beb745db0cb2174ed",
 "version.json": "8c7bd60a0b1c61f36279283babac71ca"};
 // The application shell files that are downloaded before a service worker can
