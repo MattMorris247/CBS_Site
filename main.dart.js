@@ -45207,7 +45207,7 @@ L(a){var s,r,q=null,p=A.cK("     CS Bets Alpha V0.1",q,q,q,A.e9().$1$letterSpaci
 p=A.Gt(!1,B.x,q,q,A.aqc(q,B.CE,new A.a4G(a),q,q),p)
 s=A.aOU().$3$color$fontSize$letterSpacing(B.i,35,0)
 r=A.hg(25)
-s=A.O9(this.c,B.i,A.avi(q,q,q,q,q,q,q,q,!0,new A.hr(4,A.hg(25),B.yO),q,q,q,q,q,B.i,q,q,q,q,q,new A.hr(4,r,B.kk),q,q,q,q,q,B.jw,"Placeholder Text...",q,q,q,q,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q),B.ju,q,2,!1,q,s,q)
+s=A.O9(this.c,B.i,A.avi(q,q,q,q,q,q,q,q,!0,new A.hr(4,A.hg(25),B.yO),q,q,q,q,q,B.i,q,q,q,q,q,new A.hr(4,r,B.kk),q,q,q,q,q,B.jw,"Ready Set Bet...",q,q,q,q,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q),B.ju,q,2,!1,q,s,q)
 r=A.lU(q,q,B.d6,q,q,q,q,q,q,B.bD,q,B.bP,q,q,new A.bR(A.hg(18),B.o),q,q,B.bR,q)
 return A.f1(q,A.Aj(p,B.x,new A.Nk(A.hU(A.b([B.fQ,new A.ds(B.BP,s,q),B.xg,A.o5(A.cK("Find Bets",q,q,q,A.e9().$1$letterSpacing(-1.5),q,q),new A.a4H(a),r)],t.F),B.az,B.aE,B.aS),q),q),B.t,q,B.bU,q,q,q,q)}}
 A.a4G.prototype={
