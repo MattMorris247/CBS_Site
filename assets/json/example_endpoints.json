@@ -4,35 +4,35 @@
 		{
 			"sportsbook_name": "betonline",
 			"team": "Lions",
-			"odds": 205,
-			"bet_link": "https://sportsbook.draftkings.com/event/houston-%40-baylor/30175155?category=odds&subcategory=game-lines"
+			"odds": 180,
+			"bet_link": "https://s3media.247sports.com/Uploads/Assets/802/811/7811802.jpg?fit=crop&width=100&fit=crop"
 		}, 
 		{
 			"sportsbook_name": "DraftKings",
 			"team": "Lions",
-			"odds": 180,
-			"bet_link": "https://sportsbook.draftkings.com/event/houston-%40-baylor/30175155?category=odds&subcategory=game-lines"
+			"odds": 183,
+			"bet_link": "https://s3media.247sports.com/Uploads/Assets/802/811/7811802.jpg?fit=crop&width=100&fit=crop"
 		}
 ,
 		{
 			"sportsbook_name": "FanDuel",
 			"team": "Lions",
 			"odds": 185,
-			"bet_link": "https://sportsbook.draftkings.com/event/houston-%40-baylor/30175155?category=odds&subcategory=game-lines"
+			"bet_link": "https://s3media.247sports.com/Uploads/Assets/802/811/7811802.jpg?fit=crop&width=100&fit=crop"
 		}
 		,
 		{
 			"sportsbook_name": "bovada",
 			"team": "Lions",
-			"odds": 182,
-			"bet_link": "https://sportsbook.draftkings.com/event/houston-%40-baylor/30175155?category=odds&subcategory=game-lines"
+			"odds": 187,
+			"bet_link": "https://s3media.247sports.com/Uploads/Assets/802/811/7811802.jpg?fit=crop&width=100&fit=crop"
 		}
 		,
 		{
 			"sportsbook_name": "mgm",
 			"team": "Lions",
-			"odds": 187,
-			"bet_link": "https://sportsbook.draftkings.com/event/houston-%40-baylor/30175155?category=odds&subcategory=game-lines"
+			"odds": 190,
+			"bet_link": "https://s3media.247sports.com/Uploads/Assets/802/811/7811802.jpg?fit=crop&width=100&fit=crop"
 		}
 	]
 }
