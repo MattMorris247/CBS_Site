@@ -1,0 +1,42 @@
+[
+    {
+      "bet_link": "Link",
+      "league": "NBA",
+      "market": "h2h",
+      "odds": -110,
+      "page_content": "The odds of the away team Indiana Pacers defeating the home team Oklahoma City Thunder on Wednesday, March 15, 2024 at 2024-03-13T14:10:00Z are 99.",
+      "sportsbook_name": "FanDuel",
+      "team": "Atlanta Hawks",
+      "sport": "basketball"
+    },
+    {
+      "bet_link": "Link",
+      "league": "NBA",
+      "market": "h2h",
+      "odds": -110,
+      "page_content": "The odds of the away team Indiana Pacers defeating the home team Chicago Bulls on Wednesday, March 16, 2024 at 2024-03-13T18:10:00Z are 205.",
+      "sportsbook_name": "BetMGM",
+      "team": "Boston Celtics",
+      "sport": "basketball"
+    },
+    {
+      "bet_link": "Link",
+      "league": "NBA",
+      "market": "h2h",
+      "odds": -110,
+      "page_content": "The odds of the away team Indiana Pacers defeating the home team New York Knicks on Wednesday, March 17, 2024 at 2024-03-13T20:10:00Z are 210.",
+      "sportsbook_name": "DraftKings",
+      "team": "Brooklyn Nets",
+      "sport": "basketball"
+    },
+    {
+      "sportsbook_name": "Hard Rock Bet",
+      "bet_link": "Link",
+      "league": "NBA",
+      "market": "h2h",
+      "odds": -110,
+      "page_content": "The odds of the away team Indiana Pacers defeating the home team Milwaukee Bucks on Wednesday, March 18, 2024 at 2024-03-13T15:10:00Z are 215.",
+      "team": "Charlotte Hornets",
+      "sport": "basketball"
+    }
+]
