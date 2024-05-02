@@ -3,16 +3,18 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "174fb65e9e60615964302f63346722c8",
-"assets/AssetManifest.bin.json": "16a1a9ca08a3b758e123e4149dad63e0",
-"assets/AssetManifest.json": "48811e0eb7d553080db9bb33be36edcb",
+const RESOURCES = {"assets/AssetManifest.bin": "9dc4263626595b211c371f0bb352a98a",
+"assets/AssetManifest.bin.json": "b73293d42bbcf4af23cec793bf63c41b",
+"assets/AssetManifest.json": "5c461617772561e65b3ad36746bf46ca",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "5312a1833a19763d3c70610ea3726f5f",
+"assets/fonts/MaterialIcons-Regular.otf": "9affefb747eba7bbe89ccf937428e022",
+"assets/images/bookLogos/22betLogo.png": "4fc94442b73b4c4f5b581681d6b9bc41",
 "assets/images/bookLogos/betmgmlogo.png": "ca7c844d49639ede49e3e1047f7a1ed9",
 "assets/images/bookLogos/betonlinelogo.png": "4c4f6627bb9964b4c12617e6669a9a88",
 "assets/images/bookLogos/betparxlogo.png": "5f8977d1ae080c4aca4c1edb2d5830aa",
 "assets/images/bookLogos/betriverslogo.png": "eec3b9322a2901b487a4b21303e031a8",
 "assets/images/bookLogos/betuslogo.png": "c16b5fdc46e391aecf3b8b60473dbe10",
+"assets/images/bookLogos/betwhaleLogo.png": "152dc03b1cb5ec2995fe9aeea5598a2e",
 "assets/images/bookLogos/bovadalogo.png": "5fae276d7d39e5256ed605ddcecb1beb",
 "assets/images/bookLogos/ceasarslogo.jpg": "dc2187d352c1036c901a79cfcc10cd72",
 "assets/images/bookLogos/draftkingslogo.png": "297e3c9e8922fe25c316d93163c1a8c9",
@@ -71,9 +73,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "174fb65e9e60615964302f63346722c8
 "icons/Icon-512.png.png": "af1d85f4dc10fd28f50e1aea5f447b1b",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "bd12d819bc2ad718186eb7427fa1a0a6",
-"/": "bd12d819bc2ad718186eb7427fa1a0a6",
-"main.dart.js": "de9093e7b3065b43609ab15a72493c01",
+"index.html": "7b933250ba2ed56e7ea86a9f2ed3fc05",
+"/": "7b933250ba2ed56e7ea86a9f2ed3fc05",
+"main.dart.js": "0e218d7256dc2eca63667df728c6c381",
 "manifest.json": "3fbc69a33496196beb745db0cb2174ed",
 "version.json": "8c7bd60a0b1c61f36279283babac71ca"};
 // The application shell files that are downloaded before a service worker can
