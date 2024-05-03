@@ -3,14 +3,16 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "9dc4263626595b211c371f0bb352a98a",
-"assets/AssetManifest.bin.json": "b73293d42bbcf4af23cec793bf63c41b",
-"assets/AssetManifest.json": "5c461617772561e65b3ad36746bf46ca",
+const RESOURCES = {"assets/AssetManifest.bin": "08ca35ea2e4ecb86a53a845127389e96",
+"assets/AssetManifest.bin.json": "eddf2bfd1cc9d57dda97cbaa82e215ea",
+"assets/AssetManifest.json": "1f143b63a40340fff1f872a566e9d607",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "9affefb747eba7bbe89ccf937428e022",
 "assets/images/bookLogos/22betLogo.png": "4fc94442b73b4c4f5b581681d6b9bc41",
+"assets/images/bookLogos/22betWhiteLogo.png": "5e1ea0bd9236aa228239c2decd41137b",
 "assets/images/bookLogos/betmgmlogo.png": "ca7c844d49639ede49e3e1047f7a1ed9",
 "assets/images/bookLogos/betonlinelogo.png": "4c4f6627bb9964b4c12617e6669a9a88",
+"assets/images/bookLogos/betOnlineWhiteLogo.png": "edf12054451465929f5b1a95eaa9d41d",
 "assets/images/bookLogos/betparxlogo.png": "5f8977d1ae080c4aca4c1edb2d5830aa",
 "assets/images/bookLogos/betriverslogo.png": "eec3b9322a2901b487a4b21303e031a8",
 "assets/images/bookLogos/betuslogo.png": "c16b5fdc46e391aecf3b8b60473dbe10",
@@ -29,6 +31,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "9dc4263626595b211c371f0bb352a98a
 "assets/images/bookLogos/superbooklogo.png": "321dbf892c30b36cdeb97e86505196fe",
 "assets/images/bookLogos/tipicologo.jpg": "d45640f23083622baf264a074f146ad5",
 "assets/images/bookLogos/unibetlogo.png": "295dae7743a8f3f29634ce1df856df6f",
+"assets/images/bookLogos/whaleLogo.png": "76dc772aa60605fdbd13b265cbea53a3",
 "assets/images/bookLogos/windcreeklogo.png": "0de1ace0542228bcefbe8a5f9175c935",
 "assets/images/bookLogos/wynnbetlogo.png": "e53dec9994f4ab0080fe0e81838c27e6",
 "assets/images/conferences/acc.png": "41a96e69418664983a1b76b6a70fd98e",
@@ -73,9 +76,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "9dc4263626595b211c371f0bb352a98a
 "icons/Icon-512.png.png": "af1d85f4dc10fd28f50e1aea5f447b1b",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "7b933250ba2ed56e7ea86a9f2ed3fc05",
-"/": "7b933250ba2ed56e7ea86a9f2ed3fc05",
-"main.dart.js": "0e218d7256dc2eca63667df728c6c381",
+"index.html": "9e4b89ee5a30e463009d05e0d5ab129a",
+"/": "9e4b89ee5a30e463009d05e0d5ab129a",
+"main.dart.js": "d7c8b341f7943b2505a3d7b1446b018e",
 "manifest.json": "3fbc69a33496196beb745db0cb2174ed",
 "version.json": "8c7bd60a0b1c61f36279283babac71ca"};
 // The application shell files that are downloaded before a service worker can
