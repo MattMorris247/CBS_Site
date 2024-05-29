@@ -1,6 +1,6 @@
 {
-    "name": "BUMP",
-    "short_name": "BUMP",
+    "name": "Bump",
+    "short_name": "Bump",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#000000",
