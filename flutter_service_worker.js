@@ -7,7 +7,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "174fb65e9e60615964302f63346722c8
 "assets/AssetManifest.bin.json": "16a1a9ca08a3b758e123e4149dad63e0",
 "assets/AssetManifest.json": "48811e0eb7d553080db9bb33be36edcb",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "9affefb747eba7bbe89ccf937428e022",
+"assets/fonts/MaterialIcons-Regular.otf": "438cedce8194f6fac067f21d0acb1170",
 "assets/images/bookLogos/betmgmlogo.png": "ca7c844d49639ede49e3e1047f7a1ed9",
 "assets/images/bookLogos/betonlinelogo.png": "4c4f6627bb9964b4c12617e6669a9a88",
 "assets/images/bookLogos/betparxlogo.png": "5f8977d1ae080c4aca4c1edb2d5830aa",
@@ -71,9 +71,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "174fb65e9e60615964302f63346722c8
 "icons/Icon-512.png": "08aa315aeb9074488ba7b20330d04b7e",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "3b702fbbd4b54731a450f9dcf02eaa2f",
-"/": "3b702fbbd4b54731a450f9dcf02eaa2f",
-"main.dart.js": "e0ad11d33493b29fb872983fec8d4aea",
+"index.html": "bf4bc95e459eb03e0d4a8320997cba70",
+"/": "bf4bc95e459eb03e0d4a8320997cba70",
+"main.dart.js": "53698da84fec90014753ec7e27c0a0dd",
 "manifest.json": "4746dacfdd6caee2a4dd46d5b5b53ce7",
 "version.json": "8c7bd60a0b1c61f36279283babac71ca"};
 // The application shell files that are downloaded before a service worker can
