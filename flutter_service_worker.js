@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "10dd455cc67d005f392faca758af5dab",
-"assets/AssetManifest.bin.json": "8e170fd1ca3839c1ca62d041721153aa",
-"assets/AssetManifest.json": "6578f10df2540a09f02e66a9f9edbf5d",
+const RESOURCES = {"assets/AssetManifest.bin": "1356580c1101009df73feec10004df40",
+"assets/AssetManifest.bin.json": "f3d013214130a67a3bab6bca49701eb9",
+"assets/AssetManifest.json": "f5754329259461864253c225f5afcb71",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "438cedce8194f6fac067f21d0acb1170",
 "assets/images/bookLogos/betmgmlogo.png": "ca7c844d49639ede49e3e1047f7a1ed9",
@@ -50,6 +50,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "10dd455cc67d005f392faca758af5dab
 "assets/json/ncaaAccTesting.json": "22bd333afad1f0d5aae6f594c8221cbf",
 "assets/json/nflTesting.json": "4fe37ca7a313ed4ba74100fa6430f9b0",
 "assets/json/nhlTesting.json": "d82b3dbabc60fd5b62042acc14eaf3ee",
+"assets/json/oddsTesting.json": "d80c991cbd3934152db78d208340e969",
 "assets/json/stallTesting.json": "e888c586fce15d4f20cfed3fe2de96b3",
 "assets/json/test.json": "bc6da19c42155f84657231b6277c2a26",
 "assets/json/testTime.json": "3f5591dbbe6165d122fa59167ee2b421",
@@ -72,9 +73,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "10dd455cc67d005f392faca758af5dab
 "icons/Icon-512.png": "08aa315aeb9074488ba7b20330d04b7e",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "78c9f23fe5fe622e7be557a98e712a61",
-"/": "78c9f23fe5fe622e7be557a98e712a61",
-"main.dart.js": "57a1636cfb60c05af034317fa3053bb3",
+"index.html": "0f17e5c038c98d3ea88ff507f8f5a94c",
+"/": "0f17e5c038c98d3ea88ff507f8f5a94c",
+"main.dart.js": "df6c1f17322c0f1dd5b5509d3169a485",
 "manifest.json": "4746dacfdd6caee2a4dd46d5b5b53ce7",
 "version.json": "8c7bd60a0b1c61f36279283babac71ca"};
 // The application shell files that are downloaded before a service worker can
