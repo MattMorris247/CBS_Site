@@ -51505,7 +51505,7 @@ a7v(a,b){var s=0,r=A.w(t.N),q,p,o,n,m
 var $async$xi=A.r(function(c,d){if(c===1)return A.t(d,r)
 while(true)switch(s){case 0:p=A.ei(a,0,null)
 o=t.N
-n=A.aB(["Content-Type","application/json","Access-Control-Allow-Origin","*","Access-Control-Allow-Methods","POST, OPTIONS"],o,o)
+n=A.aB(["Content-Type","application/json","Access-Control-Allow-Origin","*","Access-Control-Allow-Credentials","true","Access-Control-Allow-Methods","POST, OPTIONS"],o,o)
 s=3
 return A.z(A.aKb(p,B.b5.Ie(A.aB(["prompt",b],o,o),null),n),$async$xi)
 case 3:m=d
