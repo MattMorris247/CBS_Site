@@ -51476,7 +51476,7 @@ return A.z($.oW().aor("json/oddsTesting.json"),$async$iu)
 case 6:s=4
 break
 case 5:s=7
-return A.z(p.xi("http://52.15.62.217/llm",a),$async$iu)
+return A.z(p.xi("https://52.15.62.217/llm",a),$async$iu)
 case 7:case 4:l=c
 k=t.j.a(B.b5.dF(0,l))
 j=new A.o6()
