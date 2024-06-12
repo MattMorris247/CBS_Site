@@ -52204,7 +52204,7 @@ $S:0}
 A.rC.prototype={
 a1(){return new A.a_n(B.l)}}
 A.a_n.prototype={
-E(a){var s,r=null,q=A.eI(r,!1,B.i,!0,r,r,r,A.ah("",r,r,r,A.ad().$2$color$letterSpacing(B.e,-2.5),r,r)),p=A.a3w(A.up("images/NewLogos/Bump_transparent.png",r,300,300)),o=A.ah("Coming this Summer",r,r,r,A.ad().$3$color$fontSize$letterSpacing(B.y,35,-3.5),B.D,r),n=A.ab(20),m=A.bE(B.y,2),l=A.cw(r,r,B.i,r,r,r,2,r,r,r,r,r,B.aa,r,new A.b9(A.ab(20),B.m),r,r,r,r)
+E(a){var s,r=null,q=A.eI(r,!1,B.i,!0,r,r,r,A.ah("",r,r,r,A.ad().$2$color$letterSpacing(B.e,-2.5),r,r)),p=A.a3w(A.up("images/NewLogos/android-chrome-512x512.png",r,300,300)),o=A.ah("Coming this Summer",r,r,r,A.ad().$3$color$fontSize$letterSpacing(B.y,35,-3.5),B.D,r),n=A.ab(20),m=A.bE(B.y,2),l=A.cw(r,r,B.i,r,r,r,2,r,r,r,r,r,B.aa,r,new A.b9(A.ab(20),B.m),r,r,r,r)
 n=A.dA(A.a9(r,A.cv(A.ah("Login",r,r,r,A.ad().$3$color$fontSize$letterSpacing(B.e,24,-2.5),B.D,r),new A.avS(a),l),B.f,r,r,new A.as(B.R,r,m,n,r,r,B.n),r,r,r,r),r,200)
 m=A.ab(20)
 l=A.bE(B.y,2)
