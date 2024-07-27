@@ -1,0 +1,29 @@
+[
+
+    {
+        "bookmaker": "DraftKings",
+        "league": "NFL",
+        "market": "h2h",
+        "odds": -150.0,
+        "opposing_team": "New Orleans Saints",
+        "sport": "americanfootball_nfl",
+        "start_time": "2024-10-13T16-30-00Z",
+        "team": "Atlanta Falcons"
+      },
+    {
+      "betTitle": "Falcons Money Line vs Saints",
+      "bookmaker": "DraftKings",
+      "league": "NFL",
+      "market": "h2h",
+      "odds": 150.0,
+      "opposing_team": "Atlanta Falcons",
+      "sport": "americanfootball_nfl",
+      "start_time": "2024-10-13T16-30-00Z",
+      "team": "New Orleans Saints"
+    }
+   
+ 
+    
+ 
+  ]
+  
