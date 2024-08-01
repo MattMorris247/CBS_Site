@@ -27,7 +27,7 @@
         "market": "h2h",
         "bookMakers": ["DraftKings","FanDuel","BetMGM","ESPN BET","Hard Rock Bet"], 
         "odds": [130.0,145.0,150.0,155.0,180.0], 
-        "betLinks": ["https://www.draftkings.com/sportsbook","https://www.fanduel.com/sportsbook","https://www.betmgm.com/en/nfl"],
+        "betLinks": ["https://www.draftkings.com/sportsbook","https://www.fanduel.com/sportsbook","https://www.betmgm.com/en/nfl", "https://espnbet.com","https://www.hardrock.bet"],
         "league": "NFL",
         "sport": "americanfootball_nfl",
         "team": "New Orleans Saints",
