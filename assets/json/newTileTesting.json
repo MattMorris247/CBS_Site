@@ -2,7 +2,7 @@
 
     {
         "betTitle": "ATL • Moneyline", 
-        "betID": 1, 
+        "betID": "1", 
         "market": "h2h",
         "bookMakers": ["DraftKings","FanDuel","BetMGM","ESPN BET","Hard Rock Bet"], 
         "odds": [-130.0,-145.0,-150.0,-155.0,-180.0], 
@@ -23,7 +23,7 @@
 ,
     {
         "betTitle": "NO • Moneyline", 
-        "betID": 2, 
+        "betID": "2", 
         "market": "h2h",
         "bookMakers": ["DraftKings","FanDuel","BetMGM","ESPN BET","Hard Rock Bet"], 
         "odds": [130.0,145.0,150.0,155.0,180.0], 
