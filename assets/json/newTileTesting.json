@@ -20,7 +20,27 @@
         "homeTeam" : "Atlanta Falcons",
         "start_time": "2024-08-06T16-30-00Z"
     }
-
+,
+    {
+        "betTitle": "NO • Moneyline", 
+        "betID": "2", 
+        "market": "h2h",
+        "bookMakers": ["DraftKings","FanDuel","BetMGM","ESPN BET","Hard Rock Bet"], 
+        "odds": [1300.0,1450.0,1500.0,1550.0,1800.0], 
+        "betLinks": ["https://www.draftkings.com/sportsbook","https://www.fanduel.com/sportsbook","https://www.betmgm.com/en/nfl", "https://espnbet.com","https://www.hardrock.bet"],
+        "league": "NFL",
+        "sport": "americanfootball_nfl",
+        "team": "New Orleans Saints",
+        "teamABV": "NO",
+        "teamRecord": "3 - 2",
+        "teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+        "opposing_team": "Atlanta Falcons",
+        "opposing_teamABV": "ATL",
+        "opposing_teamRecord": "4 - 1", 
+        "opposing_teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+        "homeTeam" : "Atlanta Falcons",
+        "start_time": "2024-08-06T16-30-00Z"
+    }
    
 
 
