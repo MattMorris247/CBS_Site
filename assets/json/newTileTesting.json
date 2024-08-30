@@ -83,7 +83,69 @@
         "homeTeam" : "Baltimore Ravens",
         "start_time": "2024-08-06T16-30-00Z"
     }
-   
+    ,
+        {
+            "betTitle": "KC • Moneyline", 
+            "betID": "5", 
+            "market": "h2h",
+            "bookMakers": ["PointsBet (US)","FanDuel","BetMGM","ESPN BET","Hard Rock Bet"], 
+            "odds": [-200.0,-220.0,-225.0,-250.0,-275.0], 
+            "betLinks": ["https://sportsbook.fanatics.com","https://www.fanduel.com/sportsbook","https://www.betmgm.com/en/nfl", "https://espnbet.com","https://www.hardrock.bet"],
+            "league": "NFL",
+            "sport": "americanfootball_nfl",
+            "team": "Kansas City Chiefs",
+            "teamABV": "KC",
+            "teamRecord": "5 - 1",
+            "teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+            "opposing_team": "Las Vegas Raiders",
+            "opposing_teamABV": "LV",
+            "opposing_teamRecord": "3 - 3", 
+            "opposing_teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+            "homeTeam" : "Kansas City Chiefs",
+            "start_time": "2024-08-06T16-30-00Z"
+        }
+        ,
+        {
+            "betTitle": "GB • Moneyline", 
+            "betID": "6", 
+            "market": "h2h",
+            "bookMakers": ["FanDuel","DraftKings","ESPN BET","BetMGM","Hard Rock Bet"], 
+            "odds": [-150.0,-160.0,-165.0,-170.0,-180.0], 
+            "betLinks": ["https://www.fanduel.com/sportsbook","https://www.draftkings.com/sportsbook","https://espnbet.com","https://www.betmgm.com/en/nfl", "https://www.hardrock.bet"],
+            "league": "NFL",
+            "sport": "americanfootball_nfl",
+            "team": "Green Bay Packers",
+            "teamABV": "GB",
+            "teamRecord": "6 - 0",
+            "teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+            "opposing_team": "Arizona Cardinals",
+            "opposing_teamABV": "ARI",
+            "opposing_teamRecord": "6 - 0", 
+            "opposing_teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+            "homeTeam" : "Green Bay Packers",
+            "start_time": "2024-08-06T16-30-00Z"
+        }
+        ,
+        {
+            "betTitle": "BUF • Moneyline", 
+            "betID": "7", 
+            "market": "h2h",
+            "bookMakers": ["ESPN BET","BetMGM","FanDuel","DraftKings","Hard Rock Bet"], 
+            "odds": [-120.0,-125.0,-130.0,-135.0,-140.0], 
+            "betLinks": ["https://www.betmgm.com/en/nfl","https://www.fanduel.com/sportsbook","https://www.draftkings.com/sportsbook","https://espnbet.com", "https://www.hardrock.bet"],
+            "league": "NFL",
+            "sport": "americanfootball_nfl",
+            "team": "Buffalo Bills",
+            "teamABV": "BUF",
+            "teamRecord": "4 - 2",
+            "teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+            "opposing_team": "Tennessee Titans",
+            "opposing_teamABV": "TEN",
+            "opposing_teamRecord": "4 - 2", 
+            "opposing_teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+            "homeTeam" : "Buffalo Bills",
+            "start_time": "2024-08-06T16-30-00Z"
+        }
 
 
    
