@@ -1,7 +1,7 @@
 [
 
     {
-        "betTitle": "ATL +6.5 • Run Line", 
+        "betTitle": "ATL • Moneyline", 
         "betID": "1", 
         "market": "h2h",
         "bookMakers": ["DraftKings","FanDuel","BetMGM","ESPN BET","Hard Rock Bet"], 
@@ -39,6 +39,48 @@
         "opposing_teamRecord": "4 - 1", 
         "opposing_teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
         "homeTeam" : "Atlanta Falcons",
+        "start_time": "2024-08-06T16-30-00Z"
+    }
+,
+    {
+        "betTitle": "LAR • Moneyline", 
+        "betID": "3", 
+        "market": "h2h",
+        "bookMakers": ["FanDuel","DraftKings","ESPN BET","BetMGM","Hard Rock Bet"], 
+        "odds": [190.0,210.0,215.0,250.0,300.0], 
+        "betLinks": ["https://www.fanduel.com/sportsbook","https://www.draftkings.com/sportsbook","https://espnbet.com","https://www.betmgm.com/en/nfl", "https://www.hardrock.bet"],
+        "league": "NFL",
+        "sport": "americanfootball_nfl",
+        "team": "Los Angeles Rams",
+        "teamABV": "LAR",
+        "teamRecord": "5 - 1",
+        "teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+        "opposing_team": "New England Patriots",
+        "opposing_teamABV": "NE",
+        "opposing_teamRecord": "3 - 2", 
+        "opposing_teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+        "homeTeam" : "Los Angeles Rams",
+        "start_time": "2024-08-06T16-30-00Z"
+    }
+    ,
+    {
+        "betTitle": "BAL • Moneyline", 
+        "betID": "4", 
+        "market": "h2h",
+        "bookMakers": ["BetMGM","FanDuel","DraftKings","ESPN BET","Hard Rock Bet"], 
+        "odds": [-100.0,-105.0,-110.0,-115.0,-120.0], 
+        "betLinks": ["https://www.betmgm.com/en/nfl","https://www.fanduel.com/sportsbook","https://www.draftkings.com/sportsbook","https://espnbet.com", "https://www.hardrock.bet"],
+        "league": "NFL",
+        "sport": "americanfootball_nfl",
+        "team": "Baltimore Ravens",
+        "teamABV": "BAL",
+        "teamRecord": "6 - 0",
+        "teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+        "opposing_team": "Minnesota Vikingss",
+        "opposing_teamABV": "MIN",
+        "opposing_teamRecord": "0 - 6", 
+        "opposing_teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+        "homeTeam" : "Baltimore Ravens",
         "start_time": "2024-08-06T16-30-00Z"
     }
    
