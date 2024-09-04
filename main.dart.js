@@ -52193,7 +52193,7 @@ o=A.bQ(i,5,i)
 n=A.dk(i,A.X(i,A.bu(A.b([A.a1(B.i.j(j.a.c.Q),i,i,i,i,i,A.cc().$3$color$fontSize$fontWeight(B.e,11,B.J),i,i),new A.ab(B.oO,A.a1(" Following",i,i,i,i,i,A.cc().$2$color$fontSize(B.aM,11),i,i),i)],e),B.p,B.q,B.o),B.f,i,i,new A.ak(B.dL,i,i,i,i,i,B.n),i,i,i,i),B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,new A.avg(j,a),i,i,i,i,i,i)
 m=A.bQ(i,i,10)
 l=A.a1(B.i.j(j.a.c.as),i,i,i,i,i,A.cc().$3$color$fontSize$fontWeight(B.e,11,B.J),i,i)
-k=j.a.c.as===1?" Followers":" Follower"
+k=j.a.c.as===1?" Follower":" Followers"
 e=A.b([A.bx(A.b([g,A.X(i,A.bx(A.b([f,h,s,r,q,p,o,A.X(i,A.bu(A.b([n,m,A.dk(i,A.X(i,A.bu(A.b([l,new A.ab(B.oO,A.a1(k,i,i,i,i,i,A.cc().$2$color$fontSize(B.aM,11),i,i),i)],e),B.p,B.q,B.o),B.f,i,i,i,i,i,i,i),B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,new A.avh(j,a),i,i,i,i,i,i)],e),B.p,B.q,B.o),B.f,i,i,i,i,i,i,i)],e),B.bM,B.q,B.o),B.f,i,new A.ac(0,1/0,150,150),new A.ak(B.dL,i,i,i,i,i,B.n),i,i,B.If,i)],e),B.p,B.q,B.o),A.f_(i,new A.od(j.a.c.a,!0,!1,!1,i),i,i,5,i,100,i)],e)
 h=j.a
 g=h.e
