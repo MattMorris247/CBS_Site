@@ -41771,7 +41771,7 @@ return A.r($.mP().Y5("json/newTileTesting.json"),$async$hR)
 case 6:o=c
 s=4
 break
-case 5:s=a.toLowerCase()==="falcons game this weekend"?7:9
+case 5:s=a.toLowerCase()==="falcons are going to beat the saints this weekend"?7:9
 break
 case 7:s=10
 return A.r($.mP().Y5("json/spoof.json"),$async$hR)

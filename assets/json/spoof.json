@@ -45,30 +45,31 @@
     "homeTeam" : "ATL",
     "start_time": "2024-09-29T13-00-00Z"
 }
+
 ,
 {
-    "betTitle": "NO  • Spread O+2.5", 
-    "betID": "3", 
+    "betTitle": "ATL  • Total O 42", 
+    "betID": "4", 
     "market": "h2h",
     "bookMakers": ["DraftKings","FanDuel","BetMGM","ESPN BET","PointsBet (US)"], 
-    "odds": [-108.0,-110.0,-110.0,-110.0,-112.0], 
-    "betLinks": ["https://sportsbook.draftkings.com/event/31090398?outcomes=0ML76811115_3","https://www.fanduel.com/sportsbook","https://www.betmgm.com/en/nfl", "https://espnbet.com","https://sportsbook.fanatics.com","https://www.caesars.com/sportsbook-and-casino"],
-    "league": "NFL",
-    "sport": "americanfootball_nfl",
-    "team": "New Orleans Saints",
-    "teamColor": "d3bc8d", 
-    "teamCity"  : "New Orleans",
-    "teamABV": "NO",
-    "teamRecord": "2 - 1",
-    "teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-    "opposing_team": "Atlanta Falcons",
-    "opposing_teamCity": "Atlanta",
-    "opposing_teamABV": "ATL",
-    "opposing_teamRecord": "1 - 2", 
-    "opposing_teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-    "homeTeam" : "ATL",
-    "start_time": "2024-09-29T13-00-00Z"
-}
+    "odds": [-112.0,-110.0,-110.0,-110.0,-112.0], 
+        "betLinks": ["https://sportsbook.draftkings.com/event/31090398?outcomes=0ML76811115_3","https://www.fanduel.com/sportsbook","https://www.betmgm.com/en/nfl", "https://espnbet.com","https://sportsbook.fanatics.com","https://www.caesars.com/sportsbook-and-casino"],
+        "league": "NFL",
+        "sport": "americanfootball_nfl",
+        "team": "Atlanta Falcons",
+        "teamColor": "a71930", 
+        "teamCity"  : "Atlanta",
+        "teamABV": "ATL",
+        "teamRecord": "1 - 2",
+        "teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+        "opposing_team": "New Orleans Saints",
+        "opposing_teamCity": "New Orleans",
+        "opposing_teamABV": "NO",
+        "opposing_teamRecord": "2 - 1", 
+        "opposing_teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+        "homeTeam" : "ATL",
+        "start_time": "2024-09-29T13-00-00Z"
+    }
 
 
 
