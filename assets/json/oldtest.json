@@ -1,0 +1,34 @@
+{
+    "responses": [
+      {
+        "betTitle": "Baltimore Ravens vs. Washington Commanders",
+        "betID": "c3b700ee54cf3cb44de965e6cfcb19f9",
+        "market": "h2h",
+        "bookMakers": ["draftkings", "betmgm", "williamhill_us", "fanduel"],
+        "odds": [-310.0, -300.0, -305.0, -300.0],
+        "betLinks": [
+          "https://sportsbook.draftkings.com/event/30568892?outcomes=0ML75256406_1",
+          "https://sports.{state}.betmgm.com/en/sports?options=16401584-1177526879--921633293&type=Single",
+          "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=656767c6-3e4d-31d4-971b-4339dcbedaa4",
+          "https://sportsbook.fanduel.com/addToBetslip?marketId=42.454189975&selectionId=50205"
+        ],
+        "league": "NFL",
+        "sport": "americanfootball_nfl",
+        "start_time": "2024-10-13T21-00-48Z",
+        "homeTeam": "Baltimore Ravens",
+        "teamCity"  : "Atlanta",
+        "oppTeam": "Washington Commanders",
+        "opposing_teamABV": "NO",
+        "opposing_teamCity": "New Orleans",
+        "opposing_teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+        "opposing_teamRecord": "3 - 2", 
+  
+        "team": "Baltimore Ravens",
+        "teamABV": "BAL",
+        "teamColor": "a71930",
+        "teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+        "teamRecord": "0 - 0"
+      }
+    ]
+  }
+  
