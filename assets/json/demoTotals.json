@@ -1,0 +1,509 @@
+{
+    "responses": [
+        {
+            "betID": "09d8388d4ccba7ddafec2e400b5c013f",
+            "betLinks": [
+                ""
+            ],
+            "betTitle": "Detroit Lions vs. Minnesota Vikings",
+            "bookMakers": [
+                "draftkings",
+                "fanduel",
+                "betmgm",
+                "williamhill_us"
+            ],
+            "gameTime": "2025-01-06T01-23-12Z",
+            "homeTeam": "Detroit Lions",
+            "isTotals": true,
+            "league": "",
+            "market": "totals",
+            "odds": [
+                0.0
+            ],
+            "oppTeam": "Minnesota Vikings",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [
+                -110.0,
+                -105.0,
+                -110.0,
+                -110.0
+            ],
+            "sport": "americanfootball_nfl",
+            "team": "Detroit Lions",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [
+                "https://sportsbook.draftkings.com/event/30568625?outcomes=0OU75256053O5650_1",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.470880581&selectionId=7017916",
+                "https://sports.{state}.betmgm.com/en/sports?options=16835194-1223468774--802970101&type=Single",
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=5f2dde19-a444-34cb-95ec-199d085cfd54"
+            ],
+            "totalsPoint": [
+                56.5,
+                56.5,
+                56.0,
+                56.0
+            ],
+            "totalsUnderLink": [
+                "https://sportsbook.draftkings.com/event/30568625?outcomes=0OU75256053U5650_3",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.470880581&selectionId=7017917",
+                "https://sports.{state}.betmgm.com/en/sports?options=16835194-1223468774--802970100&type=Single",
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=a2892e31-a5ec-3015-994b-7c0e50c56c3a"
+            ],
+            "underPrice": [
+                -110.0,
+                -115.0,
+                -110.0,
+                -110.0
+            ]
+        },
+        {
+            "betID": "09d8388d4ccba7ddafec2e400b5c013f",
+            "betLinks": [
+                ""
+            ],
+            "betTitle": "Minnesota Vikings vs. Detroit Lions",
+            "bookMakers": [
+                "draftkings",
+                "fanduel",
+                "betmgm",
+                "williamhill_us"
+            ],
+            "gameTime": "2025-01-06T01-23-12Z",
+            "homeTeam": "Detroit Lions",
+            "isTotals": true,
+            "league": "",
+            "market": "totals",
+            "odds": [
+                0.0
+            ],
+            "oppTeam": "Detroit Lions",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [
+                -110.0,
+                -105.0,
+                -110.0,
+                -110.0
+            ],
+            "sport": "americanfootball_nfl",
+            "team": "Minnesota Vikings",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [
+                "https://sportsbook.draftkings.com/event/30568625?outcomes=0OU75256053O5650_1",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.470880581&selectionId=7017916",
+                "https://sports.{state}.betmgm.com/en/sports?options=16835194-1223468774--802970101&type=Single",
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=5f2dde19-a444-34cb-95ec-199d085cfd54"
+            ],
+            "totalsPoint": [
+                56.5,
+                56.5,
+                56.0,
+                56.0
+            ],
+            "totalsUnderLink": [
+                "https://sportsbook.draftkings.com/event/30568625?outcomes=0OU75256053U5650_3",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.470880581&selectionId=7017917",
+                "https://sports.{state}.betmgm.com/en/sports?options=16835194-1223468774--802970100&type=Single",
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=a2892e31-a5ec-3015-994b-7c0e50c56c3a"
+            ],
+            "underPrice": [
+                -110.0,
+                -115.0,
+                -110.0,
+                -110.0
+            ]
+        },
+        {
+            "betID": "eac47be392d58d012f8c38266021aab3",
+            "betLinks": [
+                ""
+            ],
+            "betTitle": "Los Angeles Rams vs. Minnesota Vikings",
+            "bookMakers": [
+                "fanduel"
+            ],
+            "gameTime": "2025-01-12T17-59-28Z",
+            "homeTeam": "Los Angeles Rams",
+            "isTotals": true,
+            "league": "",
+            "market": "totals",
+            "odds": [
+                0.0
+            ],
+            "oppTeam": "Minnesota Vikings",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [
+                -104.0
+            ],
+            "sport": "americanfootball_nfl",
+            "team": "Los Angeles Rams",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471628861&selectionId=7017916"
+            ],
+            "totalsPoint": [
+                47.5
+            ],
+            "totalsUnderLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471628861&selectionId=7017917"
+            ],
+            "underPrice": [
+                -118.0
+            ]
+        },
+        {
+            "betID": "eac47be392d58d012f8c38266021aab3",
+            "betLinks": [
+                ""
+            ],
+            "betTitle": "Minnesota Vikings vs. Los Angeles Rams",
+            "bookMakers": [
+                "fanduel"
+            ],
+            "gameTime": "2025-01-12T17-59-28Z",
+            "homeTeam": "Los Angeles Rams",
+            "isTotals": true,
+            "league": "",
+            "market": "totals",
+            "odds": [
+                0.0
+            ],
+            "oppTeam": "Los Angeles Rams",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [
+                -104.0
+            ],
+            "sport": "americanfootball_nfl",
+            "team": "Minnesota Vikings",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471628861&selectionId=7017916"
+            ],
+            "totalsPoint": [
+                47.5
+            ],
+            "totalsUnderLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471628861&selectionId=7017917"
+            ],
+            "underPrice": [
+                -118.0
+            ]
+        }
+        , 
+        {
+            "betID": "15a56f0e44d8fdb660a6a0aed2449e4b",
+            "betLinks": [
+                ""
+            ],
+            "betTitle": "Baltimore Ravens vs. Cleveland Browns",
+            "bookMakers": [
+                "williamhill_us",
+                "betmgm",
+                "draftkings",
+                "fanduel"
+            ],
+            "gameTime": "2025-01-04T21-30-40Z",
+            "homeTeam": "Baltimore Ravens",
+            "isTotals": true,
+            "league": "",
+            "market": "totals",
+            "odds": [
+                0.0
+            ],
+            "oppTeam": "Cleveland Browns",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [
+                -110.0,
+                -110.0,
+                -105.0,
+                -105.0
+            ],
+            "sport": "americanfootball_nfl",
+            "team": "Baltimore Ravens",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=4a994b32-952b-3750-a246-02aac1fe64f2",
+                "https://sports.{state}.betmgm.com/en/sports?options=16835191-1223456963--802999786&type=Single",
+                "https://sportsbook.draftkings.com/event/30568884?outcomes=0OU75256398O4150_1",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.470882150&selectionId=7017916"
+            ],
+            "totalsPoint": [
+                41.0,
+                41.0,
+                41.5,
+                41.5
+            ],
+            "totalsUnderLink": [
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=af35387d-f1d9-337b-8bfb-80ad31cc19ee",
+                "https://sports.{state}.betmgm.com/en/sports?options=16835191-1223456963--802999785&type=Single",
+                "https://sportsbook.draftkings.com/event/30568884?outcomes=0OU75256398U4150_3",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.470882150&selectionId=7017917"
+            ],
+            "underPrice": [
+                -110.0,
+                -110.0,
+                -115.0,
+                -115.0
+            ]
+        },
+        {
+            "betID": "15a56f0e44d8fdb660a6a0aed2449e4b",
+            "betLinks": [
+                ""
+            ],
+            "betTitle": "Cleveland Browns vs. Baltimore Ravens",
+            "bookMakers": [
+                "williamhill_us",
+                "betmgm",
+                "draftkings",
+                "fanduel"
+            ],
+            "gameTime": "2025-01-04T21-30-40Z",
+            "homeTeam": "Baltimore Ravens",
+            "isTotals": true,
+            "league": "",
+            "market": "totals",
+            "odds": [
+                0.0
+            ],
+            "oppTeam": "Baltimore Ravens",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [
+                -110.0,
+                -110.0,
+                -105.0,
+                -105.0
+            ],
+            "sport": "americanfootball_nfl",
+            "team": "Cleveland Browns",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=4a994b32-952b-3750-a246-02aac1fe64f2",
+                "https://sports.{state}.betmgm.com/en/sports?options=16835191-1223456963--802999786&type=Single",
+                "https://sportsbook.draftkings.com/event/30568884?outcomes=0OU75256398O4150_1",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.470882150&selectionId=7017916"
+            ],
+            "totalsPoint": [
+                41.0,
+                41.0,
+                41.5,
+                41.5
+            ],
+            "totalsUnderLink": [
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=af35387d-f1d9-337b-8bfb-80ad31cc19ee",
+                "https://sports.{state}.betmgm.com/en/sports?options=16835191-1223456963--802999785&type=Single",
+                "https://sportsbook.draftkings.com/event/30568884?outcomes=0OU75256398U4150_3",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.470882150&selectionId=7017917"
+            ],
+            "underPrice": [
+                -110.0,
+                -110.0,
+                -115.0,
+                -115.0
+            ]
+        },
+        {
+            "betID": "08e2147df0b21744fdef99cbcdf3edb7",
+            "betLinks": [
+                ""
+            ],
+            "betTitle": "Baltimore Ravens vs. Pittsburgh Steelers",
+            "bookMakers": [
+                "fanduel"
+            ],
+            "gameTime": "2025-01-12T17-59-28Z",
+            "homeTeam": "Baltimore Ravens",
+            "isTotals": true,
+            "league": "",
+            "market": "totals",
+            "odds": [
+                0.0
+            ],
+            "oppTeam": "Pittsburgh Steelers",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [
+                -105.0
+            ],
+            "sport": "americanfootball_nfl",
+            "team": "Baltimore Ravens",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471628449&selectionId=7017916"
+            ],
+            "totalsPoint": [
+                47.5
+            ],
+            "totalsUnderLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471628449&selectionId=7017917"
+            ],
+            "underPrice": [
+                -115.0
+            ]
+        },
+        {
+            "betID": "08e2147df0b21744fdef99cbcdf3edb7",
+            "betLinks": [
+                ""
+            ],
+            "betTitle": "Pittsburgh Steelers vs. Baltimore Ravens",
+            "bookMakers": [
+                "fanduel"
+            ],
+            "gameTime": "2025-01-12T17-59-28Z",
+            "homeTeam": "Baltimore Ravens",
+            "isTotals": true,
+            "league": "",
+            "market": "totals",
+            "odds": [
+                0.0
+            ],
+            "oppTeam": "Baltimore Ravens",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [
+                -105.0
+            ],
+            "sport": "americanfootball_nfl",
+            "team": "Pittsburgh Steelers",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471628449&selectionId=7017916"
+            ],
+            "totalsPoint": [
+                47.5
+            ],
+            "totalsUnderLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471628449&selectionId=7017917"
+            ],
+            "underPrice": [
+                -115.0
+            ]
+        },
+        {
+            "betID": "964db4396eeca2fa33e82d66f5e6acad",
+            "betLinks": [
+                ""
+            ],
+            "betTitle": "Baltimore Ravens vs. Los Angeles Chargers",
+            "bookMakers": [
+                "fanduel"
+            ],
+            "gameTime": "2025-01-12T17-59-28Z",
+            "homeTeam": "Baltimore Ravens",
+            "isTotals": true,
+            "league": "",
+            "market": "totals",
+            "odds": [
+                0.0
+            ],
+            "oppTeam": "Los Angeles Chargers",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [
+                -105.0
+            ],
+            "sport": "americanfootball_nfl",
+            "team": "Baltimore Ravens",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471624757&selectionId=7017916"
+            ],
+            "totalsPoint": [
+                49.5
+            ],
+            "totalsUnderLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471624757&selectionId=7017917"
+            ],
+            "underPrice": [
+                -115.0
+            ]
+        },
+        {
+            "betID": "964db4396eeca2fa33e82d66f5e6acad",
+            "betLinks": [
+                ""
+            ],
+            "betTitle": "Los Angeles Chargers vs. Baltimore Ravens",
+            "bookMakers": [
+                "fanduel"
+            ],
+            "gameTime": "2025-01-12T17-59-28Z",
+            "homeTeam": "Baltimore Ravens",
+            "isTotals": true,
+            "league": "",
+            "market": "totals",
+            "odds": [
+                0.0
+            ],
+            "oppTeam": "Baltimore Ravens",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [
+                -105.0
+            ],
+            "sport": "americanfootball_nfl",
+            "team": "Los Angeles Chargers",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471624757&selectionId=7017916"
+            ],
+            "totalsPoint": [
+                49.5
+            ],
+            "totalsUnderLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471624757&selectionId=7017917"
+            ],
+            "underPrice": [
+                -115.0
+            ]
+        }
+    ]
+}
+
+

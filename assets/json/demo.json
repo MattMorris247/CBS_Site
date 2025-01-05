@@ -1,0 +1,157 @@
+{
+    "responses": [
+        {
+            "betID": "4da44c8ba4e595d3fe313cbeb1fe797b",
+            "betLinks": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.470879429&selectionId=50199",
+                "https://sports.{state}.betmgm.com/en/sports?options=16835190-1223430269--803067904&type=Single",
+                "https://sportsbook.draftkings.com/event/30568830?outcomes=0ML75256319_1",
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=1cac2c60-bc22-39d6-85b3-d43abedfeb5a"
+            ],
+            "betTitle": "Atlanta Falcons vs. Carolina Panthers",
+            "bookMakers": [
+                "fanduel",
+                "betmgm",
+                "draftkings",
+                "williamhill_us"
+            ],
+            "gameTime": "2025-01-05T17-59-28Z",
+            "homeTeam": "Atlanta Falcons",
+            "isTotals": false,
+            "league": "",
+            "market": "h2h",
+            "odds": [
+                -400.0,
+                -450.0,
+                -380.0,
+                -400.0
+            ],
+            "oppTeam": "Carolina Panthers",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "sport": "americanfootball_nfl",
+            "team": "Atlanta Falcons",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0"
+        },
+        {
+            "betID": "4da44c8ba4e595d3fe313cbeb1fe797b",
+            "betLinks": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.470879429&selectionId=50198",
+                "https://sports.{state}.betmgm.com/en/sports?options=16835190-1223430269--803067905&type=Single",
+                "https://sportsbook.draftkings.com/event/30568830?outcomes=0ML75256319_3",
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=f909b6ae-186c-37c7-aa68-54d0bfd17812"
+            ],
+            "betTitle": "Carolina Panthers vs. Atlanta Falcons",
+            "bookMakers": [
+                "fanduel",
+                "betmgm",
+                "draftkings",
+                "williamhill_us"
+            ],
+            "gameTime": "2025-01-05T17-59-28Z",
+            "homeTeam": "Atlanta Falcons",
+            "isTotals": false,
+            "league": "",
+            "market": "h2h",
+            "odds": [
+                315.0,
+                350.0,
+                300.0,
+                310.0
+            ],
+            "oppTeam": "Atlanta Falcons",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "sport": "americanfootball_nfl",
+            "team": "Carolina Panthers",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0"
+        }
+, 
+        {
+            "betID": "ebda13c375e6e6bb69822f91bce86756",
+            "betLinks": [
+                "https://sports.{state}.betmgm.com/en/sports?options=16835189-1223430268--803067906&type=Single",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471150131&selectionId=50188",
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=128ee845-dc2c-326b-9ecc-febb2c362abd",
+                "https://sportsbook.draftkings.com/event/30568859?outcomes=0ML75256370_1"
+            ],
+            "betTitle": "Arizona Cardinals vs. San Francisco 49ers",
+            "bookMakers": [
+                "betmgm",
+                "fanduel",
+                "williamhill_us",
+                "draftkings"
+            ],
+            "gameTime": "2025-01-05T21-24-16Z",
+            "homeTeam": "Arizona Cardinals",
+            "isTotals": false,
+            "league": "",
+            "market": "h2h",
+            "odds": [
+                -225.0,
+                -215.0,
+                -220.0,
+                -218.0
+            ],
+            "oppTeam": "San Francisco 49ers",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "sport": "americanfootball_nfl",
+            "team": "Arizona Cardinals",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0"
+        },
+        {
+            "betID": "ebda13c375e6e6bb69822f91bce86756",
+            "betLinks": [
+                "https://sports.{state}.betmgm.com/en/sports?options=16835189-1223430268--803067907&type=Single",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471150131&selectionId=43010249",
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=81867ff1-4e1a-3ddb-b3c3-26452c35e9ce",
+                "https://sportsbook.draftkings.com/event/30568859?outcomes=0ML75256370_3"
+            ],
+            "betTitle": "San Francisco 49ers vs. Arizona Cardinals",
+            "bookMakers": [
+                "betmgm",
+                "fanduel",
+                "williamhill_us",
+                "draftkings"
+            ],
+            "gameTime": "2025-01-05T21-24-16Z",
+            "homeTeam": "Arizona Cardinals",
+            "isTotals": false,
+            "league": "",
+            "market": "h2h",
+            "odds": [
+                185.0,
+                180.0,
+                180.0,
+                180.0
+            ],
+            "oppTeam": "Arizona Cardinals",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "sport": "americanfootball_nfl",
+            "team": "San Francisco 49ers",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0"
+        }
+    ]
+}
+
+
+      
+
