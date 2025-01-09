@@ -1,0 +1,68 @@
+{
+    "responses": [
+        {
+            "betID": "08e2147df0b21744fdef99cbcdf3edb7",
+            "betLinks": [],
+            "betTitle": "Lamar Jackson Pass yards",
+            "bookMakers": [
+                "fanduel",
+                "draftkings",
+                "draftkings",
+                "williamhill_us",
+                "betmgm"
+            ],
+            "gameTime": "2025-01-12T01-01-52Z",
+            "headshot": "",
+            "homeTeam": "Baltimore Ravens",
+            "jerseyNum": "",
+            "league": "NFL",
+            "market": "player_pass_yds",
+            "odds": [],
+            "oppTeam": "Baltimore Ravens",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [],
+            "playerName": "Lamar Jackson",
+            "points": [
+                218.5,
+                213.5,
+                215.5,
+                216.5,
+                215.5
+            ],
+            "position": "",
+            "sport": "americanfootball_nfl",
+            "team": "Pittsburgh Steelers",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [],
+            "totalsPoint": [],
+            "totalsUnderLink": [],
+            "underPrice": []
+        }
+     
+
+   
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
+}

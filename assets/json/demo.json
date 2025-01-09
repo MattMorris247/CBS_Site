@@ -1,157 +1,228 @@
 {
     "responses": [
         {
-            "betID": "4da44c8ba4e595d3fe313cbeb1fe797b",
+            "betID": "afde2a86c73e9809e147d457d4d40f62",
             "betLinks": [
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.470879429&selectionId=50199",
-                "https://sports.{state}.betmgm.com/en/sports?options=16835190-1223430269--803067904&type=Single",
-                "https://sportsbook.draftkings.com/event/30568830?outcomes=0ML75256319_1",
-                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=1cac2c60-bc22-39d6-85b3-d43abedfeb5a"
+                "https://sportsbook.draftkings.com/event/31626162?outcomes=0QA228496507%23127281632_13L88808Q1-66025477Q20",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.472493144&selectionId=10676524",
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=287b65fb-395f-3791-9fcc-5b5f72518079"
             ],
-            "betTitle": "Atlanta Falcons vs. Carolina Panthers",
+            "betTitle": "Baker Mayfield 1st TD",
             "bookMakers": [
-                "fanduel",
-                "betmgm",
                 "draftkings",
+                "fanduel",
                 "williamhill_us"
             ],
-            "gameTime": "2025-01-05T17-59-28Z",
-            "homeTeam": "Atlanta Falcons",
-            "isTotals": false,
-            "league": "",
-            "market": "h2h",
+            "gameTime": "2025-01-13T01:01:52Z",
+            "headshot": "",
+            "homeTeam": "Tampa Bay Buccaneers",
+            "jerseyNum": "",
+            "league": "NFL",
+            "market": "player_1st_td",
             "odds": [
-                -400.0,
-                -450.0,
-                -380.0,
-                -400.0
+                2200.0,
+                2700.0,
+                2300.0
             ],
-            "oppTeam": "Carolina Panthers",
+            "oppTeam": "Washington Commanders",
             "oppTeamABV": "",
             "oppTeamLogo": "",
             "oppTeamRecord": "0 - 0",
+            "overPrice": [],
+            "playerName": "Baker Mayfield",
+            "points": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "position": "",
             "sport": "americanfootball_nfl",
-            "team": "Atlanta Falcons",
+            "team": "Tampa Bay Buccaneers",
             "teamABV": "",
             "teamColor": "",
             "teamLogo": "",
-            "teamRecord": "0 - 0"
-        },
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [],
+            "totalsPoint": [],
+            "totalsUnderLink": [],
+            "underPrice": []
+        },    
         {
-            "betID": "4da44c8ba4e595d3fe313cbeb1fe797b",
+            "betID": "08e2147df0b21744fdef99cbcdf3edb7",
             "betLinks": [
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.470879429&selectionId=50198",
-                "https://sports.{state}.betmgm.com/en/sports?options=16835190-1223430269--803067905&type=Single",
-                "https://sportsbook.draftkings.com/event/30568830?outcomes=0ML75256319_3",
-                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=f909b6ae-186c-37c7-aa68-54d0bfd17812"
+                "https://sportsbook.draftkings.com/event/31626161?outcomes=0QA228530433%23127456228_13L88808Q1185865538Q20",
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=6c3a2a3b-979d-39a1-b982-17d7cbb12a01",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.472458606&selectionId=11801701",
+                "https://sports.{state}.betmgm.com/en/sports?options=16863524-1227675321--791981827&type=Single"
             ],
-            "betTitle": "Carolina Panthers vs. Atlanta Falcons",
+            "betTitle": "Russell Wilson Pass TD",
             "bookMakers": [
-                "fanduel",
-                "betmgm",
                 "draftkings",
-                "williamhill_us"
-            ],
-            "gameTime": "2025-01-05T17-59-28Z",
-            "homeTeam": "Atlanta Falcons",
-            "isTotals": false,
-            "league": "",
-            "market": "h2h",
-            "odds": [
-                315.0,
-                350.0,
-                300.0,
-                310.0
-            ],
-            "oppTeam": "Atlanta Falcons",
-            "oppTeamABV": "",
-            "oppTeamLogo": "",
-            "oppTeamRecord": "0 - 0",
-            "sport": "americanfootball_nfl",
-            "team": "Carolina Panthers",
-            "teamABV": "",
-            "teamColor": "",
-            "teamLogo": "",
-            "teamRecord": "0 - 0"
-        }
-, 
-        {
-            "betID": "ebda13c375e6e6bb69822f91bce86756",
-            "betLinks": [
-                "https://sports.{state}.betmgm.com/en/sports?options=16835189-1223430268--803067906&type=Single",
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471150131&selectionId=50188",
-                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=128ee845-dc2c-326b-9ecc-febb2c362abd",
-                "https://sportsbook.draftkings.com/event/30568859?outcomes=0ML75256370_1"
-            ],
-            "betTitle": "Arizona Cardinals vs. San Francisco 49ers",
-            "bookMakers": [
-                "betmgm",
-                "fanduel",
                 "williamhill_us",
-                "draftkings"
-            ],
-            "gameTime": "2025-01-05T21-24-16Z",
-            "homeTeam": "Arizona Cardinals",
-            "isTotals": false,
-            "league": "",
-            "market": "h2h",
-            "odds": [
-                -225.0,
-                -215.0,
-                -220.0,
-                -218.0
-            ],
-            "oppTeam": "San Francisco 49ers",
-            "oppTeamABV": "",
-            "oppTeamLogo": "",
-            "oppTeamRecord": "0 - 0",
-            "sport": "americanfootball_nfl",
-            "team": "Arizona Cardinals",
-            "teamABV": "",
-            "teamColor": "",
-            "teamLogo": "",
-            "teamRecord": "0 - 0"
-        },
-        {
-            "betID": "ebda13c375e6e6bb69822f91bce86756",
-            "betLinks": [
-                "https://sports.{state}.betmgm.com/en/sports?options=16835189-1223430268--803067907&type=Single",
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471150131&selectionId=43010249",
-                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=81867ff1-4e1a-3ddb-b3c3-26452c35e9ce",
-                "https://sportsbook.draftkings.com/event/30568859?outcomes=0ML75256370_3"
-            ],
-            "betTitle": "San Francisco 49ers vs. Arizona Cardinals",
-            "bookMakers": [
-                "betmgm",
                 "fanduel",
-                "williamhill_us",
-                "draftkings"
+                "betmgm"
             ],
-            "gameTime": "2025-01-05T21-24-16Z",
-            "homeTeam": "Arizona Cardinals",
-            "isTotals": false,
-            "league": "",
-            "market": "h2h",
+            "gameTime": "2025-01-12T01:01:52Z",
+            "headshot": "",
+            "homeTeam": "Baltimore Ravens",
+            "jerseyNum": "",
+            "league": "NFL",
+            "market": "player_pass_tds",
             "odds": [
+                180.0,
                 185.0,
-                180.0,
-                180.0,
-                180.0
+                185.0,
+                170.0
             ],
-            "oppTeam": "Arizona Cardinals",
+            "oppTeam": "Pittsburgh Steelers",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [],
+            "playerName": "Russell Wilson",
+            "points": [
+                1.5,
+                1.5,
+                1.5,
+                1.5
+            ],
+            "position": "",
+            "sport": "americanfootball_nfl",
+            "team": "Baltimore Ravens",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [],
+            "totalsPoint": [],
+            "totalsUnderLink": [],
+            "underPrice": []
+        },
+        {
+            "betID": "08e2147df0b21744fdef99cbcdf3edb7",
+            "betLinks": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.472458603&selectionId=16579679",
+                "https://sportsbook.draftkings.com/event/31626161?outcomes=0QA228530447%23127568984_13L88808Q11487880989Q20",
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=3b0da8e2-94a3-3af6-b9c3-14cbf88c4926",
+                "https://sports.{state}.betmgm.com/en/sports?options=16863524-1227722596--791865907&type=Single"
+            ],
+            "betTitle": "Lamar Jackson Pass yards",
+            "bookMakers": [
+                "fanduel",
+                "draftkings",
+                "williamhill_us",
+                "betmgm"
+            ],
+            "gameTime": "2025-01-12T01:01:52Z",
+            "headshot": "",
+            "homeTeam": "Baltimore Ravens",
+            "jerseyNum": "",
+            "league": "NFL",
+            "market": "player_pass_yds",
+            "odds": [
+                -114.0,
+                -115.0,
+                -115.0,
+                -115.0
+            ],
+            "oppTeam": "Pittsburgh Steelers",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [],
+            "playerName": "Lamar Jackson",
+            "points": [
+                218.5,
+                213.5,
+                215.5,
+                216.5,
+                215.5
+            ],
+            "position": "",
+            "sport": "americanfootball_nfl",
+            "team": "Baltimore Ravens",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [],
+            "totalsPoint": [],
+            "totalsUnderLink": [],
+            "underPrice": []
+        },
+        {
+            "betID": "4290cfcaa959dc5b452481cfff521b45",
+            "betLinks": [
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=121b3a0a-51e6-3e35-a6a7-1ce35c52506d",
+                "https://sportsbook.draftkings.com/event/31626096?outcomes=0ML78176707_1",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471624346&selectionId=50203",
+                "https://sports.{state}.betmgm.com/en/sports?options=16863475-1226704024--794570789&type=Single"
+            ],
+            "betTitle": "Buffalo Bills vs. Denver Broncos",
+            "bookMakers": [
+                "williamhill_us",
+                "draftkings",
+                "fanduel",
+                "betmgm"
+            ],
+            "gameTime": "2025-01-12T18:01:36Z",
+            "homeTeam": "Buffalo Bills",
+            "league": "NFL",
+            "market": "h2h",
+            "odds": [
+                -480.0,
+                -440.0,
+                -460.0,
+                -450.0
+            ],
+            "oppTeam": "Denver Broncos",
             "oppTeamABV": "",
             "oppTeamLogo": "",
             "oppTeamRecord": "0 - 0",
             "sport": "americanfootball_nfl",
-            "team": "San Francisco 49ers",
+            "team": "Buffalo Bills",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0"
+        },
+        {
+            "betID": "4290cfcaa959dc5b452481cfff521b45",
+            "betLinks": [
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=27cd8fba-4f82-386d-9c6c-285516292c42",
+                "https://sportsbook.draftkings.com/event/31626096?outcomes=0ML78176707_3",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471624346&selectionId=50211",
+                "https://sports.{state}.betmgm.com/en/sports?options=16863475-1226704024--794570790&type=Single"
+            ],
+            "betTitle": "Denver Broncos vs. Buffalo Bills",
+            "bookMakers": [
+                "williamhill_us",
+                "draftkings",
+                "fanduel",
+                "betmgm"
+            ],
+            "gameTime": "2025-01-12T18:01:36Z",
+            "homeTeam": "Buffalo Bills",
+            "league": "NFL",
+            "market": "h2h",
+            "odds": [
+                360.0,
+                340.0,
+                360.0,
+                350.0
+            ],
+            "oppTeam": "Buffalo Bills",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "sport": "americanfootball_nfl",
+            "team": "Denver Broncos",
             "teamABV": "",
             "teamColor": "",
             "teamLogo": "",
             "teamRecord": "0 - 0"
         }
+
+        
     ]
 }
-
-
-      
-
