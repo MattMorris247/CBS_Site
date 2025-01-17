@@ -1,185 +1,34 @@
 {
     "responses": [
+    
         {
-            "betID": "afde2a86c73e9809e147d457d4d40f62",
+            "betID": "e2845c7119bd64fe725e9f9495032d72",
             "betLinks": [
-                "https://sportsbook.draftkings.com/event/31626162?outcomes=0QA228496507%23127281632_13L88808Q1-66025477Q20",
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.472493144&selectionId=10676524",
-                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=287b65fb-395f-3791-9fcc-5b5f72518079"
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=b503b162-fab7-3abd-85a2-e45df1f9f3d5",
+                "https://sports.{state}.betmgm.com/en/sports?options=16896172-1230638184--784419700&type=Single"
             ],
-            "betTitle": "Baker Mayfield 1st TD",
+            "betTitle": "Buffalo Bills vs. Baltimore Ravens",
             "bookMakers": [
-                "draftkings",
-                "fanduel",
-                "williamhill_us"
-            ],
-            "gameTime": "2025-01-13T01:01:52Z",
-            "headshot": "",
-            "homeTeam": "Tampa Bay Buccaneers",
-            "jerseyNum": "",
-            "league": "NFL",
-            "market": "player_1st_td",
-            "odds": [
-                2200.0,
-                2700.0,
-                2300.0
-            ],
-            "oppTeam": "Washington Commanders",
-            "oppTeamABV": "",
-            "oppTeamLogo": "",
-            "oppTeamRecord": "0 - 0",
-            "overPrice": [],
-            "playerName": "Baker Mayfield",
-            "points": [
-                0.0,
-                0.0,
-                0.0
-            ],
-            "position": "",
-            "sport": "americanfootball_nfl",
-            "team": "Tampa Bay Buccaneers",
-            "teamABV": "",
-            "teamColor": "",
-            "teamLogo": "",
-            "teamRecord": "0 - 0",
-            "totalsOverLink": [],
-            "totalsPoint": [],
-            "totalsUnderLink": [],
-            "underPrice": []
-        },    
-        {
-            "betID": "08e2147df0b21744fdef99cbcdf3edb7",
-            "betLinks": [
-                "https://sportsbook.draftkings.com/event/31626161?outcomes=0QA228530433%23127456228_13L88808Q1185865538Q20",
-                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=6c3a2a3b-979d-39a1-b982-17d7cbb12a01",
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.472458606&selectionId=11801701",
-                "https://sports.{state}.betmgm.com/en/sports?options=16863524-1227675321--791981827&type=Single"
-            ],
-            "betTitle": "Russell Wilson Pass TD",
-            "bookMakers": [
-                "draftkings",
-                "williamhill_us",
-                "fanduel",
-                "betmgm"
-            ],
-            "gameTime": "2025-01-12T01:01:52Z",
-            "headshot": "",
-            "homeTeam": "Baltimore Ravens",
-            "jerseyNum": "",
-            "league": "NFL",
-            "market": "player_pass_tds",
-            "odds": [
-                180.0,
-                185.0,
-                185.0,
-                170.0
-            ],
-            "oppTeam": "Pittsburgh Steelers",
-            "oppTeamABV": "",
-            "oppTeamLogo": "",
-            "oppTeamRecord": "0 - 0",
-            "overPrice": [],
-            "playerName": "Russell Wilson",
-            "points": [
-                1.5,
-                1.5,
-                1.5,
-                1.5
-            ],
-            "position": "",
-            "sport": "americanfootball_nfl",
-            "team": "Baltimore Ravens",
-            "teamABV": "",
-            "teamColor": "",
-            "teamLogo": "",
-            "teamRecord": "0 - 0",
-            "totalsOverLink": [],
-            "totalsPoint": [],
-            "totalsUnderLink": [],
-            "underPrice": []
-        },
-        {
-            "betID": "08e2147df0b21744fdef99cbcdf3edb7",
-            "betLinks": [
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.472458603&selectionId=16579679",
-                "https://sportsbook.draftkings.com/event/31626161?outcomes=0QA228530447%23127568984_13L88808Q11487880989Q20",
-                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=3b0da8e2-94a3-3af6-b9c3-14cbf88c4926",
-                "https://sports.{state}.betmgm.com/en/sports?options=16863524-1227722596--791865907&type=Single"
-            ],
-            "betTitle": "Lamar Jackson Pass yards",
-            "bookMakers": [
-                "fanduel",
-                "draftkings",
                 "williamhill_us",
                 "betmgm"
             ],
-            "gameTime": "2025-01-12T01:01:52Z",
-            "headshot": "",
-            "homeTeam": "Baltimore Ravens",
-            "jerseyNum": "",
-            "league": "NFL",
-            "market": "player_pass_yds",
-            "odds": [
-                -114.0,
-                -115.0,
-                -115.0,
-                -115.0
-            ],
-            "oppTeam": "Pittsburgh Steelers",
-            "oppTeamABV": "",
-            "oppTeamLogo": "",
-            "oppTeamRecord": "0 - 0",
-            "overPrice": [],
-            "playerName": "Lamar Jackson",
-            "points": [
-                218.5,
-                213.5,
-                215.5,
-                216.5,
-                215.5
-            ],
-            "position": "",
-            "sport": "americanfootball_nfl",
-            "team": "Baltimore Ravens",
-            "teamABV": "",
-            "teamColor": "",
-            "teamLogo": "",
-            "teamRecord": "0 - 0",
-            "totalsOverLink": [],
-            "totalsPoint": [],
-            "totalsUnderLink": [],
-            "underPrice": []
-        },
-        {
-            "betID": "4290cfcaa959dc5b452481cfff521b45",
-            "betLinks": [
-                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=121b3a0a-51e6-3e35-a6a7-1ce35c52506d",
-                "https://sportsbook.draftkings.com/event/31626096?outcomes=0ML78176707_1",
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471624346&selectionId=50203",
-                "https://sports.{state}.betmgm.com/en/sports?options=16863475-1226704024--794570789&type=Single"
-            ],
-            "betTitle": "Buffalo Bills vs. Denver Broncos",
-            "bookMakers": [
-                "williamhill_us",
-                "draftkings",
-                "fanduel",
-                "betmgm"
-            ],
-            "gameTime": "2025-01-12T18:01:36Z",
+            "gameTime": "2025-01-19T23:30:08Z",
             "homeTeam": "Buffalo Bills",
             "league": "NFL",
-            "market": "h2h",
+            "market": "spreads",
             "odds": [
-                -480.0,
-                -440.0,
-                -460.0,
-                -450.0
+                -110.0,
+                -110.0
             ],
-            "oppTeam": "Denver Broncos",
+            "oppTeam": "Baltimore Ravens",
             "oppTeamABV": "",
             "oppTeamLogo": "",
             "oppTeamRecord": "0 - 0",
             "sport": "americanfootball_nfl",
+            "spread_point": [
+                1.0,
+                1.0
+            ],
             "team": "Buffalo Bills",
             "teamABV": "",
             "teamColor": "",
@@ -187,42 +36,145 @@
             "teamRecord": "0 - 0"
         },
         {
-            "betID": "4290cfcaa959dc5b452481cfff521b45",
+            "betID": "e2845c7119bd64fe725e9f9495032d72",
             "betLinks": [
-                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=27cd8fba-4f82-386d-9c6c-285516292c42",
-                "https://sportsbook.draftkings.com/event/31626096?outcomes=0ML78176707_3",
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.471624346&selectionId=50211",
-                "https://sports.{state}.betmgm.com/en/sports?options=16863475-1226704024--794570790&type=Single"
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.472673519&selectionId=50203",
+                "https://sportsbook.draftkings.com"
             ],
-            "betTitle": "Denver Broncos vs. Buffalo Bills",
+            "betTitle": "Buffalo Bills vs. Baltimore Ravens",
             "bookMakers": [
-                "williamhill_us",
-                "draftkings",
                 "fanduel",
-                "betmgm"
+                "draftkings"
             ],
-            "gameTime": "2025-01-12T18:01:36Z",
+            "gameTime": "2025-01-19T23:30:08Z",
             "homeTeam": "Buffalo Bills",
             "league": "NFL",
-            "market": "h2h",
+            "market": "spreads",
             "odds": [
-                360.0,
-                340.0,
-                360.0,
-                350.0
+                -102.0,
+                -102.0
             ],
-            "oppTeam": "Buffalo Bills",
+            "oppTeam": "Baltimore Ravens",
             "oppTeamABV": "",
             "oppTeamLogo": "",
             "oppTeamRecord": "0 - 0",
             "sport": "americanfootball_nfl",
-            "team": "Denver Broncos",
+            "spread_point": [
+                1.5,
+                1.5
+            ],
+            "team": "Buffalo Bills",
             "teamABV": "",
             "teamColor": "",
             "teamLogo": "",
             "teamRecord": "0 - 0"
+        },
+        {
+            "betID": "8e69ba9c62b475e7c9dda2260f7e5a87",
+            "betLinks": [
+                ""
+            ],
+            "betTitle": "Houston Texans vs. Kansas City Chiefs",
+            "bookMakers": [
+                "fanduel",
+                "williamhill_us",
+                "draftkings",
+                "betmgm"
+            ],
+            "gameTime": "2025-01-18T21:30:40Z",
+            "homeTeam": "Kansas City Chiefs",
+            "league": "NFL",
+            "market": "totals",
+            "odds": [
+                0.0
+            ],
+            "oppTeam": "Kansas City Chiefs",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [
+                -112.0,
+                -110.0,
+                -105.0,
+                -110.0
+            ],
+            "sport": "americanfootball_nfl",
+            "team": "Houston Texans",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.472676317&selectionId=7017916",
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=cd639138-5190-3e69-84b8-23b4fa580677",
+                "https://sportsbook.draftkings.com/event/31660777?outcomes=0OU78261887O4250_1",
+                "https://sports.{state}.betmgm.com/en/sports?options=16896176-1230635475--784425913&type=Single"
+            ],
+            "totalsPoint": [
+                41.5,
+                41.5,
+                42.5,
+                42.0
+            ],
+            "totalsUnderLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.472676317&selectionId=7017917",
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=b5b66880-23a1-3e52-a548-c19f09259772",
+                "https://sportsbook.draftkings.com/event/31660777?outcomes=0OU78261887U4250_3",
+                "https://sports.{state}.betmgm.com/en/sports?options=16896176-1230635475--784425912&type=Single"
+            ],
+            "underPrice": [
+                -108.0,
+                -110.0,
+                -115.0,
+                -110.0
+            ]
+        },
+        {
+            "betID": "0c95381e5634e6c64aa5ca079e669dea",
+            "betLinks": [
+                "https://sports.{state}.betmgm.com/en/sports?options=16899012-1231522370--782070468&type=Single",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.473854298&selectionId=12302543",
+                "https://sportsbook.draftkings.com/event/31665745?outcomes=0QA229479079%23132766105_13L88808Q1185865538Q20"
+            ],
+            "betTitle": "Jalen Hurts Pass TD",
+            "bookMakers": [
+                "betmgm",
+                "fanduel",
+                "draftkings"
+            ],
+            "gameTime": "2025-01-19T20:01:04Z",
+            "headshot": "",
+            "homeTeam": "Philadelphia Eagles",
+            "jerseyNum": "",
+            "league": "NFL",
+            "market": "player_pass_tds",
+            "odds": [
+                135.0,
+                144.0,
+                140.0
+            ],
+            "oppTeam": "Los Angeles Rams",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [],
+            "playerName": "Jalen Hurts",
+            "points": [
+                1.5,
+                1.5,
+                1.5
+            ],
+            "position": "",
+            "sport": "americanfootball_nfl",
+            "team": "Philadelphia Eagles",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [],
+            "totalsPoint": [],
+            "totalsUnderLink": [],
+            "underPrice": []
         }
-
-        
     ]
 }
