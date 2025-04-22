@@ -1,180 +1,152 @@
 {
     "responses": [
-    
         {
-            "betID": "e2845c7119bd64fe725e9f9495032d72",
-            "betLinks": [
-                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=b503b162-fab7-3abd-85a2-e45df1f9f3d5",
-                "https://sports.{state}.betmgm.com/en/sports?options=16896172-1230638184--784419700&type=Single"
-            ],
-            "betTitle": "Buffalo Bills vs. Baltimore Ravens",
-            "bookMakers": [
-                "williamhill_us",
-                "betmgm"
-            ],
-            "gameTime": "2025-01-19T23:30:08Z",
-            "homeTeam": "Buffalo Bills",
-            "league": "NFL",
-            "market": "spreads",
-            "odds": [
-                -110.0,
-                -110.0
-            ],
-            "oppTeam": "Baltimore Ravens",
-            "oppTeamABV": "",
-            "oppTeamLogo": "",
-            "oppTeamRecord": "0 - 0",
-            "sport": "americanfootball_nfl",
-            "spread_point": [
-                1.0,
-                1.0
-            ],
-            "team": "Buffalo Bills",
-            "teamABV": "",
-            "teamColor": "",
-            "teamLogo": "",
-            "teamRecord": "0 - 0"
-        },
-        {
-            "betID": "e2845c7119bd64fe725e9f9495032d72",
-            "betLinks": [
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.472673519&selectionId=50203",
-                "https://sportsbook.draftkings.com"
-            ],
-            "betTitle": "Buffalo Bills vs. Baltimore Ravens",
-            "bookMakers": [
-                "fanduel",
-                "draftkings"
-            ],
-            "gameTime": "2025-01-19T23:30:08Z",
-            "homeTeam": "Buffalo Bills",
-            "league": "NFL",
-            "market": "spreads",
-            "odds": [
-                -102.0,
-                -102.0
-            ],
-            "oppTeam": "Baltimore Ravens",
-            "oppTeamABV": "",
-            "oppTeamLogo": "",
-            "oppTeamRecord": "0 - 0",
-            "sport": "americanfootball_nfl",
-            "spread_point": [
-                1.5,
-                1.5
-            ],
-            "team": "Buffalo Bills",
-            "teamABV": "",
-            "teamColor": "",
-            "teamLogo": "",
-            "teamRecord": "0 - 0"
-        },
-        {
-            "betID": "8e69ba9c62b475e7c9dda2260f7e5a87",
+            "betID": "12dc44254241ed056efce1e548888c26",
             "betLinks": [
                 ""
             ],
-            "betTitle": "Houston Texans vs. Kansas City Chiefs",
+            "betTitle": "Atlanta Hawks • Total",
             "bookMakers": [
-                "fanduel",
-                "williamhill_us",
-                "draftkings",
-                "betmgm"
+                "draftkings"
             ],
-            "gameTime": "2025-01-18T21:30:40Z",
-            "homeTeam": "Kansas City Chiefs",
-            "league": "NFL",
+            "gameTime": "2025-04-18T23:00:16Z",
+            "headshot": null,
+            "homeTeam": "Atlanta Hawks",
+            "jerseyNum": null,
+            "league": "",
             "market": "totals",
             "odds": [
                 0.0
             ],
-            "oppTeam": "Kansas City Chiefs",
+            "oppTeam": "Miami Heat",
             "oppTeamABV": "",
             "oppTeamLogo": "",
             "oppTeamRecord": "0 - 0",
             "overPrice": [
-                -112.0,
-                -110.0,
-                -105.0,
                 -110.0
             ],
-            "sport": "americanfootball_nfl",
-            "team": "Houston Texans",
+            "playerName": null,
+            "points": [],
+            "sport": "basketball_nba",
+            "team": "Atlanta Hawks",
             "teamABV": "",
             "teamColor": "",
             "teamLogo": "",
             "teamRecord": "0 - 0",
             "totalsOverLink": [
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.472676317&selectionId=7017916",
-                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=cd639138-5190-3e69-84b8-23b4fa580677",
-                "https://sportsbook.draftkings.com/event/31660777?outcomes=0OU78261887O4250_1",
-                "https://sports.{state}.betmgm.com/en/sports?options=16896176-1230635475--784425913&type=Single"
+                "https://sportsbook.draftkings.com/event/32157469?outcomes=0OU79557648O21950_1"
             ],
-            "totalsPoint": [
-                41.5,
-                41.5,
-                42.5,
-                42.0
+            "totalsPoints": [
+                219.5
             ],
             "totalsUnderLink": [
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.472676317&selectionId=7017917",
-                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=b5b66880-23a1-3e52-a548-c19f09259772",
-                "https://sportsbook.draftkings.com/event/31660777?outcomes=0OU78261887U4250_3",
-                "https://sports.{state}.betmgm.com/en/sports?options=16896176-1230635475--784425912&type=Single"
+                "https://sportsbook.draftkings.com/event/32157469?outcomes=0OU79557648U21950_3"
             ],
             "underPrice": [
-                -108.0,
-                -110.0,
-                -115.0,
                 -110.0
             ]
         },
         {
-            "betID": "0c95381e5634e6c64aa5ca079e669dea",
+            "betID": "12dc44254241ed056efce1e548888c26",
             "betLinks": [
-                "https://sports.{state}.betmgm.com/en/sports?options=16899012-1231522370--782070468&type=Single",
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.473854298&selectionId=12302543",
-                "https://sportsbook.draftkings.com/event/31665745?outcomes=0QA229479079%23132766105_13L88808Q1185865538Q20"
+                ""
             ],
-            "betTitle": "Jalen Hurts Pass TD",
+            "betTitle": "Atlanta Hawks • Total",
             "bookMakers": [
-                "betmgm",
-                "fanduel",
-                "draftkings"
+                "williamhill_us"
             ],
-            "gameTime": "2025-01-19T20:01:04Z",
-            "headshot": "",
-            "homeTeam": "Philadelphia Eagles",
-            "jerseyNum": "",
-            "league": "NFL",
-            "market": "player_pass_tds",
+            "gameTime": "2025-04-18T23:00:16Z",
+            "headshot": null,
+            "homeTeam": "Atlanta Hawks",
+            "jerseyNum": null,
+            "league": "",
+            "market": "totals",
             "odds": [
-                135.0,
-                144.0,
-                140.0
+                0.0
             ],
-            "oppTeam": "Los Angeles Rams",
+            "oppTeam": "Miami Heat",
             "oppTeamABV": "",
             "oppTeamLogo": "",
             "oppTeamRecord": "0 - 0",
-            "overPrice": [],
-            "playerName": "Jalen Hurts",
-            "points": [
-                1.5,
-                1.5,
-                1.5
+            "overPrice": [
+                -110.0
             ],
-            "position": "",
-            "sport": "americanfootball_nfl",
-            "team": "Philadelphia Eagles",
+            "playerName": null,
+            "points": [],
+            "sport": "basketball_nba",
+            "team": "Atlanta Hawks",
             "teamABV": "",
             "teamColor": "",
             "teamLogo": "",
             "teamRecord": "0 - 0",
-            "totalsOverLink": [],
-            "totalsPoint": [],
-            "totalsUnderLink": [],
-            "underPrice": []
+            "totalsOverLink": [
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=096306ce-c8e0-3f03-9268-664d87015df8"
+            ],
+            "totalsPoints": [
+                219.0
+            ],
+            "totalsUnderLink": [
+                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=f035e97d-f332-3c79-a1f1-d729b2e4c29a"
+            ],
+            "underPrice": [
+                -110.0
+            ]
+        },
+        {
+            "betID": "12dc44254241ed056efce1e548888c26",
+            "betLinks": [
+                ""
+            ],
+            "betTitle": "Atlanta Hawks • Total",
+            "bookMakers": [
+                "fanduel",
+                "betmgm",
+                "betrivers"
+            ],
+            "gameTime": "2025-04-18T23:00:16Z",
+            "headshot": null,
+            "homeTeam": "Atlanta Hawks",
+            "jerseyNum": null,
+            "league": "",
+            "market": "totals",
+            "odds": [
+                0.0
+            ],
+            "oppTeam": "Miami Heat",
+            "oppTeamABV": "",
+            "oppTeamLogo": "",
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [
+                -112.0,
+                -115.0,
+                -110.0
+            ],
+            "playerName": null,
+            "points": [],
+            "sport": "basketball_nba",
+            "team": "Atlanta Hawks",
+            "teamABV": "",
+            "teamColor": "",
+            "teamLogo": "",
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.498893474&selectionId=7017823",
+                "https://sports.{state}.betmgm.com/en/sports?options=17401347-1285294989--643599424&type=Single",
+                "https://{state}.betrivers.com/?page=sportsbook#event/1023455350?coupon={pickType}|3711856617|{wagerAmount}"
+            ],
+            "totalsPoints": [
+                218.5
+            ],
+            "totalsUnderLink": [
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.498893474&selectionId=7017824",
+                "https://sports.{state}.betmgm.com/en/sports?options=17401347-1285294989--643599423&type=Single",
+                "https://{state}.betrivers.com/?page=sportsbook#event/1023455350?coupon={pickType}|3711856618|{wagerAmount}"
+            ],
+            "underPrice": [
+                -108.0,
+                -105.0,
+                -110.0
+            ]
         }
     ]
 }
