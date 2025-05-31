@@ -49906,11 +49906,11 @@ var $async$rq=A.l(function(a,b){if(a===1){o.push(b)
 s=p}while(true)switch(s){case 0:j=m.d
 i=j.a.a
 if(i.length===0){s=1
-break}j.km(B.em)
+break}m.N(new A.afI(m,i))
+j.km(B.em)
 j=m.c
 j.toString
 A.l7(j).fE()
-m.N(new A.afI(m,i))
 p=4
 s=7
 return A.i(A.ir(B.X,null,t.z),$async$rq)
@@ -49965,9 +49965,10 @@ A.afL.prototype={
 $0(){return this.a.f=!1},
 $S:0}
 A.afI.prototype={
-$0(){var s=this.a
+$0(){var s=this.a,r=this.b
+s.w=r
 s.f=!0
-s.y=s.e.jP(this.b,"nj",s.r)},
+s.y=s.e.jP(r,"nj",s.r)},
 $S:0}
 A.afJ.prototype={
 $0(){return this.a.f=!1},
