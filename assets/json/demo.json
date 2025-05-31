@@ -1,152 +1,65 @@
 {
     "responses": [
         {
-            "betID": "12dc44254241ed056efce1e548888c26",
-            "betLinks": [
-                ""
-            ],
-            "betTitle": "Atlanta Hawks • Total",
-            "bookMakers": [
-                "draftkings"
-            ],
-            "gameTime": "2025-04-18T23:00:16Z",
-            "headshot": null,
-            "homeTeam": "Atlanta Hawks",
-            "jerseyNum": null,
-            "league": "",
-            "market": "totals",
-            "odds": [
-                0.0
-            ],
-            "oppTeam": "Miami Heat",
-            "oppTeamABV": "",
-            "oppTeamLogo": "",
-            "oppTeamRecord": "0 - 0",
-            "overPrice": [
-                -110.0
-            ],
-            "playerName": null,
-            "points": [],
-            "sport": "basketball_nba",
-            "team": "Atlanta Hawks",
-            "teamABV": "",
-            "teamColor": "",
-            "teamLogo": "",
-            "teamRecord": "0 - 0",
-            "totalsOverLink": [
-                "https://sportsbook.draftkings.com/event/32157469?outcomes=0OU79557648O21950_1"
-            ],
-            "totalsPoints": [
-                219.5
-            ],
-            "totalsUnderLink": [
-                "https://sportsbook.draftkings.com/event/32157469?outcomes=0OU79557648U21950_3"
-            ],
-            "underPrice": [
-                -110.0
-            ]
-        },
-        {
-            "betID": "12dc44254241ed056efce1e548888c26",
-            "betLinks": [
-                ""
-            ],
-            "betTitle": "Atlanta Hawks • Total",
-            "bookMakers": [
-                "williamhill_us"
-            ],
-            "gameTime": "2025-04-18T23:00:16Z",
-            "headshot": null,
-            "homeTeam": "Atlanta Hawks",
-            "jerseyNum": null,
-            "league": "",
-            "market": "totals",
-            "odds": [
-                0.0
-            ],
-            "oppTeam": "Miami Heat",
-            "oppTeamABV": "",
-            "oppTeamLogo": "",
-            "oppTeamRecord": "0 - 0",
-            "overPrice": [
-                -110.0
-            ],
-            "playerName": null,
-            "points": [],
-            "sport": "basketball_nba",
-            "team": "Atlanta Hawks",
-            "teamABV": "",
-            "teamColor": "",
-            "teamLogo": "",
-            "teamRecord": "0 - 0",
-            "totalsOverLink": [
-                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=096306ce-c8e0-3f03-9268-664d87015df8"
-            ],
-            "totalsPoints": [
-                219.0
-            ],
-            "totalsUnderLink": [
-                "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=f035e97d-f332-3c79-a1f1-d729b2e4c29a"
-            ],
-            "underPrice": [
-                -110.0
-            ]
-        },
-        {
-            "betID": "12dc44254241ed056efce1e548888c26",
-            "betLinks": [
-                ""
-            ],
-            "betTitle": "Atlanta Hawks • Total",
-            "bookMakers": [
-                "fanduel",
-                "betmgm",
-                "betrivers"
-            ],
-            "gameTime": "2025-04-18T23:00:16Z",
-            "headshot": null,
-            "homeTeam": "Atlanta Hawks",
-            "jerseyNum": null,
-            "league": "",
-            "market": "totals",
-            "odds": [
-                0.0
-            ],
-            "oppTeam": "Miami Heat",
-            "oppTeamABV": "",
-            "oppTeamLogo": "",
-            "oppTeamRecord": "0 - 0",
-            "overPrice": [
-                -112.0,
-                -115.0,
-                -110.0
-            ],
-            "playerName": null,
-            "points": [],
-            "sport": "basketball_nba",
-            "team": "Atlanta Hawks",
-            "teamABV": "",
-            "teamColor": "",
-            "teamLogo": "",
-            "teamRecord": "0 - 0",
-            "totalsOverLink": [
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.498893474&selectionId=7017823",
-                "https://sports.{state}.betmgm.com/en/sports?options=17401347-1285294989--643599424&type=Single",
-                "https://{state}.betrivers.com/?page=sportsbook#event/1023455350?coupon={pickType}|3711856617|{wagerAmount}"
-            ],
-            "totalsPoints": [
-                218.5
-            ],
-            "totalsUnderLink": [
-                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.498893474&selectionId=7017824",
-                "https://sports.{state}.betmgm.com/en/sports?options=17401347-1285294989--643599423&type=Single",
-                "https://{state}.betrivers.com/?page=sportsbook#event/1023455350?coupon={pickType}|3711856618|{wagerAmount}"
-            ],
-            "underPrice": [
-                -108.0,
-                -105.0,
-                -110.0
-            ]
+            "betID": "e2c462af53b3a3c606c5696830a173eb",
+            "gameTime": "2025-05-30T00:04:16Z",
+            "homeTeam": "New York Knicks",
+            "homeTeamAbbreviation": "NY",
+            "league": "nba",
+            "market": "h2h",
+            "primary_team_detail": {
+                "betLinks": [
+                    "https://sportsbook.fanduel.com/addToBetslip?marketId=42.506781765&selectionId=237481",
+                    "https://sports.{state}.betmgm.com/en/sports?options=17562157-1302488186--599424594&type=Single",
+                    "https://sportsbook.draftkings.com/event/32348166?outcomes=0ML80086819_3",
+                    "https://sportsbook.fanduel.com/addToBetslip?marketId=42.506781765&selectionId=237481"
+                ],
+                "bookmakers": [
+                    "fanduel",
+                    "betmgm",
+                    "draftkings",
+                    "williamhill_us"
+                ],
+                "odds": [
+                    150.0,
+                    150.0,
+                    145.0,
+                    145.0
+                ],
+                "team": "Indiana Pacers",
+                "teamABV": "IND",
+                "teamColor": "002d62",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+                "teamRecord": "0 - 1",
+                "title": "Indiana Pacers • Moneyline"
+            },
+            "secondary_team_detail": {
+                "betLinks": [
+                    "https://sportsbook.fanduel.com/addToBetslip?marketId=42.506781765&selectionId=237482",
+                    "https://sports.{state}.betmgm.com/en/sports?options=17562157-1302488186--599424593&type=Single",
+                    "https://sportsbook.draftkings.com/event/32348166?outcomes=0ML80086819_1",
+                    "https://sportsbook.draftkings.com/event/32348166?outcomes=0ML80086819_1"
+                ],
+                "bookmakers": [
+                    "draftkings",
+                    "fanduel",
+                    "betmgm",
+                    "williamhill_us"
+                ],
+                "odds": [
+                    -175.0,
+                    -178.0,
+                    -182.0,
+                    -185.0
+                ],
+                "team": "New York Knicks",
+                "teamABV": "NY",
+                "teamColor": "1d428a",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+                "teamRecord": "1 - 0",
+                "title": "New York Knicks • Moneyline"
+            },
+            "sport": "basketball_nba"
         }
     ]
 }

@@ -1,132 +1,54 @@
 {
-  "responses": [
-    {
-      "betID": "c3b700ee54cf3cb44de965e6cfcb19f9",
-      "betLinks": [
-        "https://sportsbook.draftkings.com/event/30568892?outcomes=0ML75256406_1",
-        "https://sports.{state}.betmgm.com/en/sports?options=16401584-1177526879--921633293&type=Single",
-        "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=656767c6-3e4d-31d4-971b-4339dcbedaa4",
-        "https://sportsbook.fanduel.com/addToBetslip?marketId=42.454189975&selectionId=50205"
-      ],
-      "betTitle": "Baltimore Ravens vs. Washington Commanders",
-      "bookMakers": ["draftkings", "betmgm", "williamhill_us", "fanduel"],
-      "gameTime": "2024-10-13T21-00-48Z",
-      "homeTeam": "Baltimore Ravens",
-      "league": "",
-      "market": "h2h",
-      "odds": [-310.0, -300.0, -305.0, -300.0],
-      "oppTeam": "Washington Commanders",
-      "oppTeamABV": "",
-      "oppTeamLogo": "",
-      "oppTeamRecord": "0 - 0",
-      "sport": "americanfootball_nfl",
-      "team": "Baltimore Ravens",
-      "teamABV": "",
-      "teamColor": "",
-      "teamLogo": "",
-      "teamRecord": "0 - 0"
-    },
-    {
-        "betID": "29837452983475jhsdfbngjhsdbfg", 
-        "betLinks": [
-            "https://sportsbook.draftkings.com/event/30568892?outcomes=0ML75256406_1",
-            "https://sportsbook.fanduel.com/addToBetslip?marketId=42.454189975&selectionId=50205",
-            "https://sports.{state}.betmgm.com/en/sports?options=16401584-1177526879--921633293&type=Single",
-            "https://about.espnbet.com", 
-            "https://co.betrivers.com/?page=landing",
-            "https://www.caesars.com/sportsbook-and-casino"
-        ],
-        "betTitle": "ATL • Moneyline", 
-        "bookMakers": ["DraftKings","FanDuel","BetMGM","ESPN BET","BetRivers","williamhill_us"], 
-        "gameTime": "2024-09-13T16-30-00Z",
-        "homeTeam" : "Atlanta Falcons",
-        "league": "NFL",
-        "market": "h2h",
-        "odds": [-310.0, -350.0, -355.0, -360.0, -375.0, -380.0],
-        "oppTeam": "New Orleans Saints",
-        "oppTeamABV": "",
-        "oppTeamLogo": "",
-        "oppTeamRecord": "3 - 2", 
-        "sport": "americanfootball_nfl",
-        "team": "Atlanta Falcons",
-        "teamABV": "ATL",
-        "teamColor": "", 
-        "teamLogo": "",
-        "teamRecord": "4 - 1"
-    },
-    {
-      "betID": "c3b700ee54cf3cb44de965e6cfcb19f9",
-      "betLinks": [
-        "https://sportsbook.draftkings.com/event/30568892?outcomes=0ML75256406_3",
-        "https://sports.{state}.betmgm.com/en/sports?options=16401584-1177526879--921633294&type=Single",
-        "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=e407003d-6296-3199-a476-a07c7eb518ce",
-        "https://sportsbook.fanduel.com/addToBetslip?marketId=42.454189975&selectionId=42568622"
-      ],
-      "betTitle": "Washington Commanders vs. Baltimore Ravens",
-      "bookMakers": ["draftkings", "betmgm", "williamhill_us", "fanduel"],
-      "gameTime": "2024-10-13T21-00-48Z",
-      "homeTeam": "Baltimore Ravens",
-      "league": "",
-      "market": "h2h",
-      "odds": [250.0, 250.0, 240.0, 245.0],
-      "oppTeam": "Baltimore Ravens",
-      "oppTeamABV": "",
-      "oppTeamLogo": "",
-      "oppTeamRecord": "0 - 0",
-      "sport": "americanfootball_nfl",
-      "team": "Washington Commanders",
-      "teamABV": "",
-      "teamColor": "",
-      "teamLogo": "",
-      "teamRecord": "0 - 0"
-    },
-    {
-      "betID": "269f082de1c875831ceb05c8e0fa6e9e",
-      "betLinks": [
-        "https://sportsbook.draftkings.com/event/30568561?outcomes=0ML75255964_1",
-        "https://sportsbook.fanduel.com/addToBetslip?marketId=42.457373321&selectionId=50190"
-      ],
-      "betTitle": "Tampa Bay Buccaneers vs. Baltimore Ravens",
-      "bookMakers": ["draftkings", "fanduel"],
-      "gameTime": "2024-10-22T20-30-00Z",
-      "homeTeam": "Tampa Bay Buccaneers",
-      "league": "",
-      "market": "h2h",
-      "odds": [180.0, 180.0],
-      "oppTeam": "Baltimore Ravens",
-      "oppTeamABV": "",
-      "oppTeamLogo": "",
-      "oppTeamRecord": "0 - 0",
-      "sport": "americanfootball_nfl",
-      "team": "Tampa Bay Buccaneers",
-      "teamABV": "",
-      "teamColor": "",
-      "teamLogo": "",
-      "teamRecord": "0 - 0"
-    },
-    {
-      "betID": "269f082de1c875831ceb05c8e0fa6e9e",
-      "betLinks": [
-        "https://sportsbook.draftkings.com/event/30568561?outcomes=0ML75255964_3",
-        "https://sportsbook.fanduel.com/addToBetslip?marketId=42.457373321&selectionId=50205"
-      ],
-      "betTitle": "Baltimore Ravens vs. Tampa Bay Buccaneers",
-      "bookMakers": ["draftkings", "fanduel"],
-      "gameTime": "2024-10-22T20-30-00Z",
-      "homeTeam": "Tampa Bay Buccaneers",
-      "league": "",
-      "market": "h2h",
-      "odds": [-218.0, -215.0],
-      "oppTeam": "Tampa Bay Buccaneers",
-      "oppTeamABV": "",
-      "oppTeamLogo": "",
-      "oppTeamRecord": "0 - 0",
-      "sport": "americanfootball_nfl",
-      "team": "Baltimore Ravens",
-      "teamABV": "",
-      "teamColor": "",
-      "teamLogo": "",
-      "teamRecord": "0 - 0"
-    }
-  ]
+    "responses": [
+        {
+            "betID": "a3c9d814105bac05c91de4c446666f24",
+            "betLinks": [
+                "https://sportsbook.draftkings.com/event/32074064?outcomes=0QA242042623%23201958221_14L42648Q11485495167Q20",
+                "https://sportsbook.caesars.com/us/%7Bstate%7D/bet/betslip?selectionIds=232e980a-2292-3c5a-84c7-7fb991807395",
+                "https://sports.{state}.betmgm.com/en/sports?options=17266854-1277269385--664190878&type=Single",
+                "https://sportsbook.fanduel.com/addToBetslip?marketId=42.495191032&selectionId=9015811"
+            ],
+            "betTitle": "Jimmy Butler • Triple Double",
+            "bookMakers": [
+                "draftkings",
+                "williamhill_us",
+                "betmgm",
+                "fanduel"
+            ],
+            "gameTime": "2025-04-03T21:49:52Z",
+            "headshot": "",
+            "homeTeam": "Los Angeles Lakers",
+            "jerseyNum": "",
+            "league": "NBA",
+            "market": "player_triple_double",
+            "odds": [
+                2000.0,
+                2000.0,
+                2000.0,
+                2800.0
+            ],
+            "oppTeam": "Golden State Warriors",
+            "oppTeamABV": null,
+            "oppTeamLogo": null,
+            "oppTeamRecord": "0 - 0",
+            "overPrice": [],
+            "playerName": "Jimmy Butler",
+            "points": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "sport": "basketball_nba",
+            "team": "Los Angeles Lakers",
+            "teamABV": null,
+            "teamColor": null,
+            "teamLogo": null,
+            "teamRecord": "0 - 0",
+            "totalsOverLink": [],
+            "totalsPoints": [],
+            "totalsUnderLink": [],
+            "underPrice": []
+        }
+    ]
 }

@@ -1,34 +1,72 @@
 {
-    "responses": [
+  "responses": [
       {
-        "betTitle": "Baltimore Ravens vs. Washington Commanders",
-        "betID": "c3b700ee54cf3cb44de965e6cfcb19f9",
-        "market": "h2h",
-        "bookMakers": ["draftkings", "betmgm", "williamhill_us", "fanduel"],
-        "odds": [-310.0, -300.0, -305.0, -300.0],
-        "betLinks": [
-          "https://sportsbook.draftkings.com/event/30568892?outcomes=0ML75256406_1",
-          "https://sports.{state}.betmgm.com/en/sports?options=16401584-1177526879--921633293&type=Single",
-          "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=656767c6-3e4d-31d4-971b-4339dcbedaa4",
-          "https://sportsbook.fanduel.com/addToBetslip?marketId=42.454189975&selectionId=50205"
-        ],
-        "league": "NFL",
-        "sport": "americanfootball_nfl",
-        "start_time": "2024-10-13T21-00-48Z",
-        "homeTeam": "Baltimore Ravens",
-        "teamCity"  : "Atlanta",
-        "oppTeam": "Washington Commanders",
-        "opposing_teamABV": "NO",
-        "opposing_teamCity": "New Orleans",
-        "opposing_teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-        "opposing_teamRecord": "3 - 2", 
-  
-        "team": "Baltimore Ravens",
-        "teamABV": "BAL",
-        "teamColor": "a71930",
-        "teamLogo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-        "teamRecord": "0 - 0"
+          "betID": "e2c462af53b3a3c606c5696830a173eb",
+          "gameTime": "2025-05-30T00:04:16Z",
+          "homeTeam": "New York Knicks",
+          "league": "nba",
+          "market": "h2h",
+          "primary_team_detail": {
+              "betLinks": [
+                  "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=d5703855-6437-36b5-b3f3-2a20aaf9699a",
+                  "https://sportsbook.fanduel.com/addToBetslip?marketId=42.506781765&selectionId=237482",
+                  "https://sportsbook.draftkings.com/event/32348166?outcomes=0ML80086819_1",
+                  "https://sports.{state}.betmgm.com/en/sports?options=17562157-1302488186--599424593&type=Single",
+                  "https://{state}.betrivers.com/?page=sportsbook#event/1023736922?coupon={pickType}|3756139839|{wagerAmount}"
+              ],
+              "bookmakers": [
+                  "williamhill_us",
+                  "fanduel",
+                  "draftkings",
+                  "betmgm",
+                  "betrivers"
+              ],
+              "odds": [
+                  -180.0,
+                  -188.0,
+                  -175.0,
+                  -185.0,
+                  -177.0
+              ],
+              "team": "New York Knicks",
+              "teamABV": "NY",
+              "teamColor": "1d428a",
+              "teamLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+              "teamRecord": "0 - 0"
+          },
+          "secondary_team_detail": {
+              "betLinks": [
+                  "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=1d675712-af57-369d-bc43-aca55c67c371",
+                  "https://sportsbook.fanduel.com/addToBetslip?marketId=42.506781765&selectionId=237481",
+                  "https://sportsbook.draftkings.com/event/32348166?outcomes=0ML80086819_3",
+                  "https://sports.{state}.betmgm.com/en/sports?options=17562157-1302488186--599424594&type=Single",
+                  "https://{state}.betrivers.com/?page=sportsbook#event/1023736922?coupon={pickType}|3756139841|{wagerAmount}"
+              ],
+              "bookmakers": [
+                  "williamhill_us",
+                  "fanduel",
+                  "draftkings",
+                  "betmgm",
+                  "betrivers"
+              ],
+              "odds": [
+                  152.0,
+                  158.0,
+                  145.0,
+                  150.0,
+                  148.0
+              ],
+              "team": "Indiana Pacers",
+              "teamABV": "IND",
+              "teamColor": "002d62",
+              "teamLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+              "teamRecord": "0-0"
+          },
+          "sport": "basketball_nba",
+          "totalsOverLink": null,
+          "totalsPoints": null,
+          "totalsUnderLink": null,
+          "underPrice": null
       }
-    ]
-  }
-  
+  ]
+}

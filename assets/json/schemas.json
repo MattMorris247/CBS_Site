@@ -1,0 +1,52 @@
+{
+    "responses": [
+         {
+            "bet_id": "bet_id",
+            "market": "player_triple_double",
+            "league": "NBA",
+            "sport": "basketball_nba",
+            "primary_is_home": true, 
+            "game_time": "2025-04-01T23:30:08Z",
+            "bet_title": "Jimmy Butler • Triple Double",
+            "player_details" : {
+                "player_name": "Jimmy Butler",
+                "jersey_num": "23",
+                "headshot": "headshot_url"
+            },
+            "primary_team_detail": {
+                "primary_team": "Golden State Warriors",
+                "primary_team_abbreviation": "GSW",
+                "primary_color": "color",
+                "primary_team_logo": "logo_url",
+                "record": "1-1"     
+            },
+            "secondary_team_detail": {
+                "secondary_team": "Los Angeles Lakers",
+                "secondary_team_abbreviation": "LAL",
+                "secondary_color": "color",
+                "secondary_team_logo": "logo_url",
+                "record": "1-1"
+            }, 
+             "has_points": false,
+             "bet_details": [
+                     {    
+                        "bookmaker": "williamhill_us",
+                         "odds": 2000.0,
+                         "betLink": "betlink"
+                    },
+                    {
+                        "bookmaker": "betmgm",
+                        "odds": 2100.0,
+                        "betLink": "betlink"
+                    },
+                    {
+                        "bookmaker": "fanduel",
+                        "odds": 2150.0,
+                        "betLink": "betlink"
+                    }
+                  ] 
+            }
+        ]
+    }
+             
+  
