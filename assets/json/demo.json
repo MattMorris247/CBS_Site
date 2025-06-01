@@ -8,75 +8,77 @@
             "sport": "basketball_nba",
             "primary_is_home": true, 
             "primary_team_detail": {
-                "primary_title": "Knicks • Spread",
-                "primary_team": "New York Knicks",
-                "primary_team_abbreviation": "NYC",
-                "primary_color": "color",
-                "primary_team_logo": "logo_url",
+                "title": "Knicks • Spread",
+                "team": "New York Knicks",
+                "teamABV": "NY",
+                "teamColor":  "1d428a",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
                 "record": "1-1"  ,
                 "primary_bet_details": {
                     "7.0" :  [ {    
                         "bookmaker": "williamhill_us",
                          "odds": -80.5,
-                         "betLink": "betlink"
+                         "betLink":"https://sports.{state}.betmgm.com/en/sports?options=17562157-1302488186--599424594&type=Single"
                     },
                     {
                         "bookmaker": "betmgm",
                         "odds": -82.5,
-                        "betLink": "betlink"
+                        "betLink":"https://sports.{state}.betmgm.com/en/sports?options=17562157-1302488186--599424594&type=Single"
+
                     },
                     {
                         "bookmaker": "fanduel",
                         "odds": -85.0,
-                        "betLink": "betlink"
+                        "betLink":"https://sports.{state}.betmgm.com/en/sports?options=17562157-1302488186--599424594&type=Single"
                     }
                   ], 
-                  "8.0" :  [ {    
+                  "999.2" :  [ {    
                         "bookmaker": "williamhill_us",
                          "odds": -100,
-                        "betLink": "betlink"
+                        "betLink":"cesars"
                     },
                     {
                         "bookmaker": "betmgm",
                         "odds": -105.0,
-                        "betLink": "betlink"
+                        "betLink":"https://sports.{state}.betmgm.com/en/sports?options=17562157-1302488186--599424594&type=Single"
                     },
                     {
-                        "bookmaker": "fanduel",
+                        "bookmaker": "draftkings",
                         "odds": -110.0,
-                        "betLink": "betlink"
+                        "betLink":"https://sportsbook.draftkings.com/event/32348166?outcomes=0ML80086819_3"
 
                     }
                   ]
                 }
             },
               "secondary_team_detail": {
-                "secondary_team": "Indiana Pacers",
-                "secondary_team_abbreviation": "IND",
-                "secondary_color": "color",
-                "secondary_team_logo": "logo_url",
+                "title": "Pacers • Spread",
+                "team": "Indiana Pacers",
+                "teamABV": "IND",
+                "teamColor": "002d62",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
                 "record": "1-1",
                 "secondary_bet_details": {
                     "-7.0" :  [ {    
                         "bookmaker": "williamhill_us",
                          "odds": -90.5,
-                         "betLink": "betlink"
+                         "betLink":"cesars"
                     },
                     {
                         "bookmaker": "betmgm",
                         "odds": -95.5,
-                        "betLink": "betlink"
+                        "betLink":"https://sports.{state}.betmgm.com/en/sports?options=17562157-1302488186--599424594&type=Single"
                     },
                     {
                         "bookmaker": "fanduel",
                         "odds": -96.0,
-                        "betLink": "betlink"
+                        "betLink": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.506781765&selectionId=237481"
                     }
                   ], 
-                  "-8.0" :  [ {    
-                        "bookmaker": "williamhill_us",
+                  "-8.5" :  [ {    
+                        "bookmaker": "draftkings",
                          "odds": -100,
-                        "betLink": "betlink"
+                        "betLink": "https://sportsbook.draftkings.com/event/32348166?outcomes=0ML80086819_3"
                     },
                     {
                         "bookmaker": "betmgm",
@@ -91,6 +93,67 @@
                     }
                   ]
                 }
+            }
+        },
+        {
+            "betID": "e2c462af53b3a3c606c5696830a173eb",
+            "market": "h2h",
+            "gameTime": "2025-05-30T00:04:16Z",
+            "homeTeam": "New York Knicks",
+            "homeTeamAbbreviation": "NY",
+            "league": "nba",
+            "sport": "basketball_nba",
+            "primary_team_detail": {
+                "betLinks": [
+                    "https://sportsbook.fanduel.com/addToBetslip?marketId=42.506781765&selectionId=237481",
+                    "https://sports.{state}.betmgm.com/en/sports?options=17562157-1302488186--599424594&type=Single",
+                    "https://sportsbook.draftkings.com/event/32348166?outcomes=0ML80086819_3",
+                    "https://sportsbook.fanduel.com/addToBetslip?marketId=42.506781765&selectionId=237481"
+                ],
+                "bookmakers": [
+                    "fanduel",
+                    "betmgm",
+                    "draftkings",
+                    "williamhill_us"
+                ],
+                "odds": [
+                    150.0,
+                    150.0,
+                    145.0,
+                    145.0
+                ],
+                "team": "Indiana Pacers",
+                "teamABV": "IND",
+                "teamColor": "002d62",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+                "teamRecord": "0 - 1",
+                "title": "Indiana Pacers • Moneyline"
+            },
+            "secondary_team_detail": {
+                "betLinks": [
+                    "https://sportsbook.fanduel.com/addToBetslip?marketId=42.506781765&selectionId=237482",
+                    "https://sports.{state}.betmgm.com/en/sports?options=17562157-1302488186--599424593&type=Single",
+                    "https://sportsbook.draftkings.com/event/32348166?outcomes=0ML80086819_1",
+                    "https://sportsbook.draftkings.com/event/32348166?outcomes=0ML80086819_1"
+                ],
+                "bookmakers": [
+                    "draftkings",
+                    "fanduel",
+                    "betmgm",
+                    "williamhill_us"
+                ],
+                "odds": [
+                    -175.0,
+                    -178.0,
+                    -182.0,
+                    -185.0
+                ],
+                "team": "New York Knicks",
+                "teamABV": "NY",
+                "teamColor": "1d428a",
+                "teamLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+                "teamRecord": "1 - 0",
+                "title": "New York Knicks • Moneyline"
             }
         }
       ]
