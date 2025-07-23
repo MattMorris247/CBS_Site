@@ -1,0 +1,113 @@
+{
+    "responses": [
+      {
+        "bet_id": "e2c462af53b3a3c606c5696830a173eg",
+        "title": "NY vs IND • Total",
+        "market": "totals",
+        "gameTime": "2025-05-30T00:04:16Z",
+        "league": "NBA",
+        "sport": "basketball_nba",
+        "primary_is_home": true,
+        "bet_detail": {
+          "210.5": {
+            "over_details": [
+              {
+                "bookmaker": "williamhill_us",
+                "odds": -90.0,
+                "over_link": "link",
+                "under_link": "link"
+              },
+              {
+                "bookmaker": "betmgm",
+                "odds": -95.5,
+                "over_link": "link",
+                "under_link": "link"
+              },
+              {
+                "bookmaker": "fanduel",
+                "odds": -96.0,
+                "over_link": "link",
+                "under_link": "link"
+              }
+            ],
+            "under_details": [
+              {
+                "bookmaker": "williamhill_us",
+                "odds": 90.0,
+                "over_link": "link",
+                "under_link": "link"
+              },
+              {
+                "bookmaker": "betmgm",
+                "odds": 95.5,
+                "over_link": "link",
+                "under_link": "link"
+              },
+              {
+                "bookmaker": "fanduel",
+                "odds": 96.0,
+                "over_link": "link",
+                "under_link": "link"
+              }
+            ]
+          },
+          "212.5": {
+            "over_details": [
+              {
+                "bookmaker": "draftkings",
+                "odds": -100,
+                "over_link": "link",
+                "under_link": "link"
+              },
+              {
+                "bookmaker": "betmgm",
+                "odds": -105.0,
+                "over_link": "link",
+                "under_link": "link"
+              },
+              {
+                "bookmaker": "fanduel",
+                "odds": -110.0,
+                "over_link": "link",
+                "under_link": "link"
+              }
+            ],
+            "under_details": [
+              {
+                "bookmaker": "draftkings",
+                "odds": 100,
+                "over_link": "link",
+                "under_link": "link"
+              },
+              {
+                "bookmaker": "betmgm",
+                "odds": 105.0,
+                "over_link": "link",
+                "under_link": "link"
+              },
+              {
+                "bookmaker": "fanduel",
+                "odds": 110.0,
+                "over_link": "link",
+                "under_link": "link"
+              }
+            ]
+          }
+        },
+        "primary_team_detail": {
+          "team": "New York Knicks",
+          "teamABV": "NY",
+          "teamColor": "1d428a",
+          "teamLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ny.png",
+          "record": "1-1"
+        },
+        "secondary_team_detail": {
+          "team": "Indiana Pacers",
+          "teamABV": "IND",
+          "teamColor": "002d62",
+          "teamLogo": "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
+          "record": "1-1"
+        }
+      }
+    ]
+  }
