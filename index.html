@@ -30,6 +30,9 @@
   <title>bumpbets</title>
   <link rel="manifest" href="manifest.json">
   
+  <!-- Firebase Configuration -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
   
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
   
@@ -118,7 +121,22 @@
   
   
   
-  
+  <!-- Firebase Initialization -->
+  <script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyA2wZNO2uQ7RAVEck5MHStZmiZLLuDH0io",
+      authDomain: "csbets-63b40.firebaseapp.com",
+      projectId: "csbets-63b40",
+      storageBucket: "csbets-63b40.appspot.com",
+      messagingSenderId: "184663515781",
+      appId: "1:184663515781:web:0f16438b2ba66855a43fec",
+      measurementId: "G-LRDNEWD5LB"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
   
   <script src="flutter_bootstrap.js" async=""></script>
 
