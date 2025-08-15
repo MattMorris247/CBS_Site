@@ -139,83 +139,8 @@
         ]
            }
        },
-       {
-        "title": "Home Run",
-        "primary_is_home": true, 
-        "primary_team_detail":{
-            "abbreviation":"ATL",
-            "logo_link":"https://a.espncdn.com/i/teamlogos/mlb/500/atl.png",
-            "name":"Atlanta Braves",
-            "color": "#0c2340",
-            "record":"0 - 0"
-         },
-         "secondary_team_detail":{
-            "abbreviation":"BOS",
-            "logo_link":"https://a.espncdn.com/i/teamlogos/mlb/500/bos.png",
-            "name":"Boston Red Sox",
-            "color": "#0d2b56",
-            "record":"0 - 0"
-         },
-        "event_id": "58fffb39be568060f51a0c4ee0913d73",
-        "market": "batter_home_runs",
-        "over_bet_details": {
-            "0.5": [
-                {
-                    "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.520100340&selectionId=65312398",
-                    "bookmaker": "fanduel",
-                    "odds": 255.0
-                },
-                {
-                    "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=189c60b3-2ffe-3477-a77f-8a76e43cfb46",
-                    "bookmaker": "williamhill_us",
-                    "odds": 230.0
-                },
-                {
-                    "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036716?coupon={pickType}|3825788016|{wagerAmount}",
-                    "bookmaker": "betrivers",
-                    "odds": 295.0
-                },
-                {
-                    "bet_link": "https://sports.{state}.betmgm.com/en/sports?options=17862933-1343294919--493459362&type=Single",
-                    "bookmaker": "betmgm",
-                    "odds": 240.0
-                }
-            ]
-        },
-        "player_details": {
-            "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/32767.png",
-            "jersey_number": 28,
-            "name": "Matt Olsen",
-            "position": "1B"
-        },
-        "sport": "baseball_mlb",
-        "start_time": "2025-08-02T02:05:52Z",
-        "under_bet_details": {
-            "0.5": [
-                {
-                    "bet_link": "",
-                    "bookmaker": "fanduel",
-                    "odds": 250.0
-                },
-                {
-                    "bet_link": "",
-                    "bookmaker": "williamhill_us",
-                    "odds": 0.0
-                },
-                {
-                    "bet_link": "",
-                    "bookmaker": "betrivers",
-                    "odds": 0.0
-                },
-                {
-                    "bet_link": "https://sports.{state}.betmgm.com/en/sports?options=17862933-1343294919--493459361&type=Single",
-                    "bookmaker": "betmgm",
-                    "odds": -300.0
-                }
-            ]
-        }
-    }
-    ,
+       
+    
     {
         "away_team_details":{
            "abbreviation":"MIA",
