@@ -164,32 +164,32 @@
         "over_bet_details":{
            "9.0":[
               {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+                 "bet_link":"betlink1",
                  "bookmaker":"williamhill_us",
                  "odds":-125.0
               },
               {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+                 "bet_link":"betlink2",
                  "bookmaker":"draftkings",
                  "odds":-135.0
               },
               {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+                 "bet_link":"betlink3",
                  "bookmaker":"fanduel",
                  "odds":-145.0
               },
               {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+                 "bet_link":"betlink4",
                  "bookmaker":"betrivers",
                  "odds":-155.0
               },
               {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+                 "bet_link":"betlink5",
                  "bookmaker":"betmgm",
                  "odds":-165.0
               },
               {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+                 "bet_link":"betlink6",
                  "bookmaker":"espn bet",
                  "odds":-175.0
               }
@@ -351,22 +351,22 @@
         "under_bet_details":{
            "9.0":[
               {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=0af6eb32-90ee-3a8b-a84c-369e02fe27dc",
+                 "bet_link":"betlink1",
                  "bookmaker":"williamhill_us",
                  "odds":105.0
               },
               {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=0af6eb32-90ee-3a8b-a84c-369e02fe27dc",
+                 "bet_link":"betlink2",
                  "bookmaker":"williamhill_us",
                  "odds":105.0
               },
               {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=0af6eb32-90ee-3a8b-a84c-369e02fe27dc",
+                 "bet_link":"betlink3",
                  "bookmaker":"williamhill_us",
                  "odds":105.0
               },
               {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=0af6eb32-90ee-3a8b-a84c-369e02fe27dc",
+                 "bet_link":"betlink4",
                  "bookmaker":"williamhill_us",
                  "odds":105.0
               }
