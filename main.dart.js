@@ -45521,7 +45521,7 @@ return s==null?"0 - 0":s},
 $S:31}
 A.ajc.prototype={
 $1(a){var s=a.h(0,"color"),r=s==null?a.h(0,"teamColor"):s
-if(r==null)r="FFFFFF"
+if(r==null)r="FF40BCFF"
 return B.c.aS(r,"#")?B.c.bR(r,1):r},
 $S:31}
 A.aj2.prototype={
@@ -45672,7 +45672,7 @@ return s==null?"0 - 0":s},
 $S:31}
 A.aqh.prototype={
 $1(a){var s=a.h(0,"color"),r=s==null?a.h(0,"teamColor"):s
-if(r==null)r="FFFFFF"
+if(r==null)r="FF40BCFF"
 return B.c.aS(r,"#")?B.c.bR(r,1):r},
 $S:31}
 A.aqi.prototype={
@@ -45836,7 +45836,7 @@ return s==null?"0-0":s},
 $S:31}
 A.arT.prototype={
 $1(a){var s=a.h(0,"color"),r=s==null?a.h(0,"teamColor"):s
-if(r==null)r="FFFFFF"
+if(r==null)r="FF40BCFF"
 return B.c.aS(r,"#")?B.c.bR(r,1):r},
 $S:31}
 A.arU.prototype={
@@ -46166,7 +46166,7 @@ return s==null?"0-0":s},
 $S:31}
 A.al6.prototype={
 $1(a){var s=a.h(0,"color")
-if(s==null)s="FFFFFF"
+if(s==null)s="FF40BCFF"
 return B.c.aS(s,"#")?B.c.bR(s,1):s},
 $S:31}
 A.al4.prototype={
@@ -47051,7 +47051,8 @@ s=A.cV(0,A.be(A.b([A.ae(j.c,i,i,i,A.b2().$3$color$fontSize$fontWeight(B.d,16,B.c
 r=j.anS(j.ax)
 q=A.S(25,B.d.n()>>>16&255,B.d.n()>>>8&255,B.d.n()&255)
 p=A.aF(8)
-o=A.b([A.be(A.b([A.ae(j.Q,i,i,i,A.b2().$3$color$fontSize$fontWeight(B.d,16,B.ct),B.b2,i)],g),B.p,i,B.r,B.q,B.A)],g)
+o=j.Q
+o=A.b([A.be(A.b([A.ae(o,i,i,i,A.b2().$3$color$fontSize$fontWeight(B.d,o.length>3?14:16,B.ct),B.b2,i)],g),B.p,i,B.r,B.q,B.A)],g)
 n=j.as
 if(n!=null){m=B.c.p(n,"betrivers")
 l=m?18:22
@@ -47432,7 +47433,7 @@ b=A.cV(a4,A.be(A.b([f,B.d1,A.bL(A.b([e,B.eI,d,B.eH,B.mZ,B.eH,c,B.eI,a3.U2(b)],a)
 c=A.cV(a4,A.be(A.b([new A.Er(a3.d,a3.gaoM(),a4),B.h4,new A.tL(a3.e,a3.galG(),a4)],a),B.p,a4,B.r,B.ao,B.A),a4,a4,a4,72,2,a4)
 d=A.S(25,B.d.n()>>>16&255,B.d.n()>>>8&255,B.d.n()&255)
 e=A.aF(8)
-a8=A.b([A.be(A.b([A.ae(a8,a4,a4,a4,A.b2().$3$color$fontSize$fontWeight(B.d,16,B.ct),B.b2,a4)],a),B.p,a4,B.r,B.q,B.A)],a)
+a8=A.b([A.be(A.b([A.ae(a8,a4,a4,a4,A.b2().$3$color$fontSize$fontWeight(B.d,a8.length>3?15:16,B.ct),B.b2,a4)],a),B.p,a4,B.r,B.q,B.A)],a)
 if(m!=null){f=B.c.p(m,"betrivers")
 a0=f?18:22
 a1=f?30:26

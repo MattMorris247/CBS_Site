@@ -24,22 +24,22 @@
                {
                    "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.520135482&selectionId=65312398",
                    "bookmaker": "fanduel",
-                   "odds": -120.0
+                   "odds": -1.0
                },
                {
                    "bet_link": "https://sportsbook.draftkings.com/event/32594705?outcomes=0QA266150784%23298432396_13L84240Q1-44994196Q20",
                    "bookmaker": "draftkings",
-                   "odds": -115.0
+                   "odds": -10.0
                },
                {
                    "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=eb47c462-f7d7-3c94-9725-08efde1b8a97",
                    "bookmaker": "williamhill_us",
-                   "odds": -115.0
+                   "odds": -100.0
                },
                {
                    "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036716?coupon={pickType}|3825787998|{wagerAmount}",
                    "bookmaker": "betrivers",
-                   "odds": -120.0
+                   "odds": -1000.0
                },
                {
                    "bet_link": "https://sports.{state}.betmgm.com/en/sports?options=17862933-1343294924--493459350&type=Single",
@@ -50,7 +50,7 @@
             {
                 "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.520135482&selectionId=65312398",
                 "bookmaker": "fanduel",
-                "odds": -120.0
+                "odds": -1000.0
             },
             {
                 "bet_link": "https://sportsbook.draftkings.com/event/32594705?outcomes=0QA266150784%23298432396_13L84240Q1-44994196Q20",
@@ -166,7 +166,7 @@
               {
                  "bet_link":"betlink1",
                  "bookmaker":"williamhill_us",
-                 "odds":-125.0
+                 "odds":-1000.0
               },
               {
                  "bet_link":"betlink2",
@@ -418,7 +418,7 @@
                  {
                     "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
                     "bookmaker":"betrivers",
-                    "odds":-143.0
+                    "odds":-9999.0
                  },
                  {
                     "bet_link":"https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371342&selectionId=6266193",
@@ -542,7 +542,7 @@
           {
             "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472444|{wagerAmount}",
             "bookmaker": "fanduel",
-            "odds": 15.0
+            "odds": 1000.0
           },
           {
             "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=d28ddcc3-c76c-393b-9512-1d9098ff5530",
