@@ -148,20 +148,36 @@
   </script>
   
   <script>
+    console.log("🚀 [DEBUG] Flutter config initialization starting...");
+    
     // Force HTML renderer for iOS Safari compatibility
     window.flutterWebRenderer = "html";
+    console.log("✅ [DEBUG] Set window.flutterWebRenderer = 'html'");
     
-    // Disable service worker registration which causes issues on GitHub Pages
-    window.flutterServiceWorkerVersion = null;
+    // Override the build config BEFORE bootstrap loads
+    _flutter = _flutter || {};
+    _flutter.buildConfig = {
+      "engineRevision": "d3d45dcf251823c1769909cd43698d126db38deb",
+      "builds": [
+        {"compileTarget": "dart2js", "renderer": "html", "mainJsPath": "main.dart.js"}
+      ]
+    };
+    console.log("✅ [DEBUG] Overridden build config to use HTML renderer");
+    console.log(_flutter.buildConfig);
     
-    // Prevent CORS/COEP issues
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations().then(registrations => {
-        for(let registration of registrations) {
-          registration.unregister();
-        }
-      });
-    }
+    // Disable service worker to avoid GitHub Pages issues
+    _flutter.loader = _flutter.loader || {};
+    
+    // Add global error handler
+    window.addEventListener('error', function(e) {
+      console.error("❌ [FATAL ERROR]", e.message, e.filename, e.lineno, e.colno);
+    });
+    
+    window.addEventListener('unhandledrejection', function(event) {
+      console.error("❌ [UNHANDLED REJECTION]", event.reason);
+    });
+    
+    console.log("✅ [DEBUG] All initialization complete, awaiting flutter_bootstrap.js...");
   </script>
   <script src="flutter_bootstrap.js" async=""></script>
 
