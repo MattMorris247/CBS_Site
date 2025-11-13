@@ -30,14 +30,26 @@
   <title>bumpbets</title>
   <link rel="manifest" href="manifest.json">
   
-  <!-- Firebase Configuration -->
+  <!-- Firebase Configuration - Load synchronously for iOS Safari compatibility -->
   <script>
     console.log("📦 [DEBUG] Loading Firebase libraries...");
   </script>
-  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js" onload="console.log('✅ Firebase app loaded')" onerror="console.error('❌ Firebase app failed to load')"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js" onload="console.log('✅ Firebase auth loaded')" onerror="console.error('❌ Firebase auth failed to load')"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js" onload="console.log('✅ Firebase database loaded')" onerror="console.error('❌ Firebase database failed to load')"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js" onload="console.log('✅ Firebase firestore loaded')" onerror="console.error('❌ Firebase firestore failed to load')"></script>
+  <!-- Load Firebase scripts WITHOUT defer/async to ensure they load before Flutter -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+  <script>
+    // Verify all Firebase libraries loaded
+    if (typeof firebase !== 'undefined') {
+      console.log('✅ Firebase app loaded');
+      if (firebase.auth) console.log('✅ Firebase auth loaded');
+      if (firebase.database) console.log('✅ Firebase database loaded');
+      if (firebase.firestore) console.log('✅ Firebase firestore loaded');
+    } else {
+      console.error('❌ Firebase libraries failed to load!');
+    }
+  </script>
   
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
   
@@ -135,12 +147,15 @@
   
   
   
-  <!-- Firebase Initialization -->
+  <!-- Firebase Initialization - MUST complete before Flutter starts -->
   <script>
     console.log("🔥 [DEBUG] Attempting Firebase initialization...");
     console.log("🔍 [DEBUG] User Agent:", navigator.userAgent);
     console.log("🔍 [DEBUG] Platform:", navigator.platform);
     console.log("🔍 [DEBUG] Is iOS:", /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream);
+    
+    // Wait for Firebase to be ready
+    window.firebaseReady = false;
     
     try {
       // Your web app's Firebase configuration
@@ -158,39 +173,72 @@
       console.log("🔍 [DEBUG] Firebase config:", JSON.stringify(firebaseConfig));
 
       if (typeof firebase === 'undefined') {
-        console.error("❌ Firebase SDK not loaded yet!");
-      } else {
-        console.log("✅ Firebase SDK detected");
-        console.log("🔍 [DEBUG] Firebase version:", firebase.SDK_VERSION || "unknown");
-        
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-        console.log("✅ Firebase initialized successfully");
-        
-        // Verify database is available
-        if (firebase.database) {
-          console.log("✅ Firebase Realtime Database available");
+        console.error("❌ CRITICAL: Firebase SDK not loaded!");
+        console.error("❌ This will cause Flutter app to crash");
+        throw new Error("Firebase SDK not loaded");
+      }
+      
+      console.log("✅ Firebase SDK detected");
+      console.log("🔍 [DEBUG] Firebase version:", firebase.SDK_VERSION || "unknown");
+      
+      // Verify all required Firebase modules are loaded
+      const requiredModules = {
+        'auth': firebase.auth,
+        'database': firebase.database,
+        'firestore': firebase.firestore
+      };
+      
+      const missingModules = [];
+      for (const [name, module] of Object.entries(requiredModules)) {
+        if (!module) {
+          missingModules.push(name);
+          console.error(`❌ Firebase ${name} module NOT loaded!`);
         } else {
-          console.warn("⚠️ Firebase Realtime Database not available");
-        }
-        
-        // Verify Firestore is available
-        if (firebase.firestore) {
-          console.log("✅ Firebase Firestore available");
-        } else {
-          console.warn("⚠️ Firebase Firestore not available");
+          console.log(`✅ Firebase ${name} module loaded`);
         }
       }
+      
+      if (missingModules.length > 0) {
+        throw new Error(`Missing Firebase modules: ${missingModules.join(', ')}`);
+      }
+      
+      // Initialize Firebase
+      const app = firebase.initializeApp(firebaseConfig);
+      console.log("✅ Firebase initialized successfully");
+      console.log("✅ Firebase app name:", app.name);
+      console.log("✅ Firebase Realtime Database available");
+      console.log("✅ Firebase Firestore available");
+      
+      // Mark Firebase as ready
+      window.firebaseReady = true;
+      console.log("🎉 Firebase fully initialized and ready!");
+      
     } catch(e) {
-      console.error("❌ Firebase initialization error:", e);
+      console.error("❌ FATAL: Firebase initialization error:", e);
       console.error("❌ Error stack:", e.stack);
+      console.error("❌ App will not function properly");
+      
+      // Show error to user
+      document.body.innerHTML = `
+        <div style="display: flex; justify-content: center; align-items: center; height: 100vh; background: #1a1a1a; color: white; font-family: sans-serif; text-align: center; padding: 20px;">
+          <div>
+            <h1>🔥 Firebase Initialization Error</h1>
+            <p style="color: #ff6b6b;">${e.message}</p>
+            <p>Please refresh the page or contact support.</p>
+            <button onclick="location.reload()" style="margin-top: 20px; padding: 10px 20px; background: #4ade80; border: none; border-radius: 5px; color: black; font-weight: bold; cursor: pointer;">
+              Refresh Page
+            </button>
+          </div>
+        </div>
+      `;
     }
   </script>
   
   <script>
     // APP VERSION - Increment this to force cache clear
-    window.APP_VERSION = "1.0.2-ios-fix";
+    window.APP_VERSION = "1.0.3-firebase-sync-load";
     console.log("📱 [DEBUG] App Version:", window.APP_VERSION);
+    console.log("📱 [DEBUG] Firebase Ready Status:", window.firebaseReady);
     console.log("🚀 [DEBUG] Flutter config initialization starting...");
     console.log("User Agent:", navigator.userAgent);
     console.log("Is iOS Safari:", /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream);
