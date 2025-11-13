@@ -109,6 +109,15 @@
       document.getElementById("splash-branding")?.remove();
       document.body.style.background = "transparent";
     }
+    
+    // Error logging for debugging
+    window.addEventListener('error', function(e) {
+      console.error('Global error:', e.message, e.filename, e.lineno);
+    });
+    
+    window.addEventListener('unhandledrejection', function(event) {
+      console.error('Unhandled promise rejection:', event.reason);
+    });
   </script>
 </head>
 <body>
@@ -139,7 +148,20 @@
   </script>
   
   <script>
+    // Force HTML renderer for iOS Safari compatibility
     window.flutterWebRenderer = "html";
+    
+    // Disable service worker registration which causes issues on GitHub Pages
+    window.flutterServiceWorkerVersion = null;
+    
+    // Prevent CORS/COEP issues
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(registrations => {
+        for(let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
   </script>
   <script src="flutter_bootstrap.js" async=""></script>
 
