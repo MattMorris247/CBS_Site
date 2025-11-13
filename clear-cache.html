@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clear Cache - BumpBets</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 500px;
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+      text-align: center;
+    }
+    h1 {
+      margin: 0 0 20px 0;
+      font-size: 28px;
+    }
+    .status {
+      margin: 20px 0;
+      padding: 15px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      font-family: monospace;
+      font-size: 14px;
+      text-align: left;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    button {
+      background: white;
+      color: #667eea;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 10px;
+      transition: all 0.3s ease;
+    }
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    }
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    .success {
+      color: #4ade80;
+    }
+    .error {
+      color: #f87171;
+    }
+    .info {
+      color: #60a5fa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🧹 Cache Cleaner</h1>
+    <p>Clear all cached data for BumpBets</p>
+    
+    <button id="clearBtn" onclick="clearEverything()">Clear All Cache & Reload</button>
+    
+    <div class="status" id="status">
+      <div class="info">Ready to clear cache...</div>
+    </div>
+    
+    <button onclick="window.location.href='index.html'">Go to App</button>
+  </div>
+
+  <script>
+    function log(message, type = 'info') {
+      const statusDiv = document.getElementById('status');
+      const msgDiv = document.createElement('div');
+      msgDiv.className = type;
+      msgDiv.textContent = message;
+      statusDiv.appendChild(msgDiv);
+      statusDiv.scrollTop = statusDiv.scrollHeight;
+      console.log(message);
+    }
+
+    async function clearEverything() {
+      const btn = document.getElementById('clearBtn');
+      btn.disabled = true;
+      
+      const statusDiv = document.getElementById('status');
+      statusDiv.innerHTML = '';
+      
+      log('🚀 Starting cache clear process...', 'info');
+      
+      try {
+        // Clear service workers
+        if ('serviceWorker' in navigator) {
+          log('🔍 Checking for service workers...', 'info');
+          const registrations = await navigator.serviceWorker.getRegistrations();
+          
+          if (registrations.length === 0) {
+            log('✅ No service workers found', 'success');
+          } else {
+            log(`🔄 Found ${registrations.length} service worker(s), unregistering...`, 'info');
+            for (let registration of registrations) {
+              const success = await registration.unregister();
+              if (success) {
+                log('✅ Service worker unregistered', 'success');
+              } else {
+                log('⚠️ Failed to unregister service worker', 'error');
+              }
+            }
+          }
+        }
+        
+        // Clear all caches
+        if ('caches' in window) {
+          log('🔍 Checking for caches...', 'info');
+          const cacheNames = await caches.keys();
+          
+          if (cacheNames.length === 0) {
+            log('✅ No caches found', 'success');
+          } else {
+            log(`🗑️ Found ${cacheNames.length} cache(s), deleting...`, 'info');
+            for (let name of cacheNames) {
+              const success = await caches.delete(name);
+              if (success) {
+                log(`✅ Deleted cache: ${name}`, 'success');
+              } else {
+                log(`⚠️ Failed to delete cache: ${name}`, 'error');
+              }
+            }
+          }
+        }
+        
+        // Clear localStorage
+        try {
+          log('🧹 Clearing localStorage...', 'info');
+          localStorage.clear();
+          log('✅ localStorage cleared', 'success');
+        } catch (e) {
+          log(`⚠️ Could not clear localStorage: ${e.message}`, 'error');
+        }
+        
+        // Clear sessionStorage
+        try {
+          log('🧹 Clearing sessionStorage...', 'info');
+          sessionStorage.clear();
+          log('✅ sessionStorage cleared', 'success');
+        } catch (e) {
+          log(`⚠️ Could not clear sessionStorage: ${e.message}`, 'error');
+        }
+        
+        // Clear IndexedDB
+        if ('indexedDB' in window) {
+          try {
+            log('🗄️ Clearing IndexedDB...', 'info');
+            const databases = await indexedDB.databases();
+            for (let db of databases) {
+              if (db.name) {
+                indexedDB.deleteDatabase(db.name);
+                log(`✅ Deleted database: ${db.name}`, 'success');
+              }
+            }
+          } catch (e) {
+            log(`⚠️ Could not clear IndexedDB: ${e.message}`, 'error');
+          }
+        }
+        
+        log('', 'info');
+        log('🎉 Cache clear complete!', 'success');
+        log('⏳ Reloading in 2 seconds...', 'info');
+        
+        setTimeout(() => {
+          window.location.href = 'index.html?' + Date.now();
+        }, 2000);
+        
+      } catch (error) {
+        log(`❌ Error: ${error.message}`, 'error');
+        btn.disabled = false;
+      }
+    }
+    
+    // Log device info
+    log(`📱 User Agent: ${navigator.userAgent}`, 'info');
+    log(`🌐 Platform: ${navigator.platform}`, 'info');
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    log(`🍎 iOS Device: ${isIOS}`, 'info');
+    log('', 'info');
+  </script>
+</body>
+</html>
+

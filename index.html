@@ -188,6 +188,9 @@
   </script>
   
   <script>
+    // APP VERSION - Increment this to force cache clear
+    window.APP_VERSION = "1.0.2-ios-fix";
+    console.log("📱 [DEBUG] App Version:", window.APP_VERSION);
     console.log("🚀 [DEBUG] Flutter config initialization starting...");
     console.log("User Agent:", navigator.userAgent);
     console.log("Is iOS Safari:", /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream);
@@ -211,16 +214,40 @@
       ]
     };
     
-    // Disable service worker completely
+    // AGGRESSIVELY Disable service worker completely
     if ('serviceWorker' in navigator) {
+      console.log("🔄 [DEBUG] Unregistering all service workers...");
       navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        if (registrations.length === 0) {
+          console.log("✅ [DEBUG] No service workers found");
+        }
         for(var registration of registrations) {
-          registration.unregister();
-          console.log("✅ [DEBUG] Unregistered service worker");
+          registration.unregister().then(function(success) {
+            if (success) {
+              console.log("✅ [DEBUG] Successfully unregistered service worker");
+            } else {
+              console.warn("⚠️ [DEBUG] Failed to unregister service worker");
+            }
+          });
         }
       }).catch(function(err) {
-        console.log("Service Worker unregister error:", err);
+        console.error("❌ Service Worker unregister error:", err);
       });
+      
+      // Clear all caches
+      if ('caches' in window) {
+        console.log("🗑️ [DEBUG] Clearing all caches...");
+        caches.keys().then(function(names) {
+          console.log("🔍 [DEBUG] Found", names.length, "caches:", names);
+          for (let name of names) {
+            caches.delete(name).then(function(success) {
+              if (success) {
+                console.log("✅ [DEBUG] Deleted cache:", name);
+              }
+            });
+          }
+        });
+      }
     }
     
     console.log("✅ [DEBUG] Build config:", JSON.stringify(window._flutter.buildConfig));
