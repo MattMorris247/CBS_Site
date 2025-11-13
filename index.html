@@ -170,19 +170,21 @@
     window.flutterWebRenderer = "html";
     console.log("✅ [DEBUG] Set window.flutterWebRenderer = 'html'");
     
-    // Override the build config BEFORE bootstrap loads
-    _flutter = _flutter || {};
-    _flutter.buildConfig = {
+    // Initialize _flutter if it doesn't exist yet
+    if (!window._flutter) {
+      window._flutter = {};
+      console.log("✅ [DEBUG] Created window._flutter object");
+    }
+    
+    // Override the build config with HTML renderer
+    window._flutter.buildConfig = {
       "engineRevision": "d3d45dcf251823c1769909cd43698d126db38deb",
       "builds": [
         {"compileTarget": "dart2js", "renderer": "html", "mainJsPath": "main.dart.js"}
       ]
     };
     console.log("✅ [DEBUG] Overridden build config to use HTML renderer");
-    console.log(_flutter.buildConfig);
-    
-    // Disable service worker to avoid GitHub Pages issues
-    _flutter.loader = _flutter.loader || {};
+    console.log("Build config:", window._flutter.buildConfig);
     
     // Add global error handler with more detail
     window.addEventListener('error', function(e) {
