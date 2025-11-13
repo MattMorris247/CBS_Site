@@ -34,25 +34,9 @@
   <title>bumpbets</title>
   <link rel="manifest" href="manifest.json">
   
-  <!-- Firebase Configuration - Load synchronously for iOS Safari compatibility -->
+  <!-- Firebase will be initialized by the Flutter app -->
   <script>
-    console.log("📦 [DEBUG] Loading Firebase libraries...");
-  </script>
-  <!-- Load Firebase scripts WITHOUT defer/async to ensure they load before Flutter -->
-  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
-  <script>
-    // Verify all Firebase libraries loaded
-    if (typeof firebase !== 'undefined') {
-      console.log('✅ Firebase app loaded');
-      if (firebase.auth) console.log('✅ Firebase auth loaded');
-      if (firebase.database) console.log('✅ Firebase database loaded');
-      if (firebase.firestore) console.log('✅ Firebase firestore loaded');
-    } else {
-      console.error('❌ Firebase libraries failed to load!');
-    }
+    console.log("📦 [DEBUG] Firebase will be initialized by Flutter Dart code");
   </script>
   
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
@@ -151,155 +135,25 @@
   
   
   
-  <!-- Firebase Initialization - MUST complete before Flutter starts -->
+  <!-- Firebase will be initialized by Flutter's firebase_core package -->
   <script>
-    console.log("🔥 [DEBUG] Attempting Firebase initialization...");
+    console.log("🔥 [DEBUG] Firebase initialization will be handled by Flutter");
     console.log("🔍 [DEBUG] User Agent:", navigator.userAgent);
-    console.log("🔍 [DEBUG] Platform:", navigator.platform);
 
-    // Detect iOS Safari
+    // Detect iOS Safari for debugging
     const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
     const isIOSSafari = isIOS && isSafari;
-    console.log("🔍 [DEBUG] Is iOS:", isIOS);
-    console.log("🔍 [DEBUG] Is Safari:", isSafari);
     console.log("🔍 [DEBUG] Is iOS Safari:", isIOSSafari);
 
-    // Wait for Firebase to be ready
-    window.firebaseReady = false;
+    // Store platform info for Flutter to access if needed
     window.isIOSSafari = isIOSSafari;
-
-    // iOS Safari specific: Check IndexedDB availability
-    if (isIOSSafari) {
-      console.log("🍎 [iOS Safari] Checking IndexedDB availability...");
-      if (!window.indexedDB) {
-        console.error("❌ IndexedDB not available on iOS Safari!");
-      } else {
-        console.log("✅ IndexedDB is available");
-      }
-    }
-
-    try {
-      // Your web app's Firebase configuration
-      const firebaseConfig = {
-        apiKey: "AIzaSyA2wZNO2uQ7RAVEck5MHStZmiZLLuDH0io",
-        authDomain: "csbets-63b40.firebaseapp.com",
-        databaseURL: "https://csbets-63b40-default-rtdb.firebaseio.com",
-        projectId: "csbets-63b40",
-        storageBucket: "csbets-63b40.appspot.com",
-        messagingSenderId: "184663515781",
-        appId: "1:184663515781:web:0f16438b2ba66855a43fec",
-        measurementId: "G-LRDNEWD5LB"
-      };
-
-      console.log("🔍 [DEBUG] Firebase config:", JSON.stringify(firebaseConfig));
-
-      if (typeof firebase === 'undefined') {
-        console.error("❌ CRITICAL: Firebase SDK not loaded!");
-        console.error("❌ This will cause Flutter app to crash");
-        throw new Error("Firebase SDK not loaded");
-      }
-
-      console.log("✅ Firebase SDK detected");
-      console.log("🔍 [DEBUG] Firebase version:", firebase.SDK_VERSION || "unknown");
-
-      // Verify all required Firebase modules are loaded
-      const requiredModules = {
-        'auth': firebase.auth,
-        'database': firebase.database,
-        'firestore': firebase.firestore
-      };
-
-      const missingModules = [];
-      for (const [name, module] of Object.entries(requiredModules)) {
-        if (!module) {
-          missingModules.push(name);
-          console.error(`❌ Firebase ${name} module NOT loaded!`);
-        } else {
-          console.log(`✅ Firebase ${name} module loaded`);
-        }
-      }
-
-      if (missingModules.length > 0) {
-        throw new Error(`Missing Firebase modules: ${missingModules.join(', ')}`);
-      }
-
-      // Initialize Firebase with iOS Safari specific settings
-      const initOptions = isIOSSafari
-        ? { ...firebaseConfig, experimentalForceLongPolling: true }
-        : firebaseConfig;
-
-      console.log("🔍 [DEBUG] Initializing with options:", JSON.stringify(initOptions));
-      const app = firebase.initializeApp(initOptions);
-      console.log("✅ Firebase initialized successfully");
-      console.log("✅ Firebase app name:", app.name);
-
-      // iOS Safari: Enable long polling for Realtime Database (more reliable than WebSockets)
-      if (isIOSSafari && firebase.database) {
-        try {
-          console.log("🍎 [iOS Safari] Configuring Realtime Database with long polling...");
-          const db = firebase.database();
-          // Force disconnect/reconnect to apply settings
-          db.goOffline();
-          setTimeout(() => {
-            db.goOnline();
-            console.log("✅ [iOS Safari] Realtime Database reconnected with optimized settings");
-          }, 100);
-        } catch (dbError) {
-          console.warn("⚠️ [iOS Safari] Could not configure database settings:", dbError);
-          // Don't throw - let the app try to continue
-        }
-      }
-
-      console.log("✅ Firebase Realtime Database available");
-      console.log("✅ Firebase Firestore available");
-
-      // Mark Firebase as ready
-      window.firebaseReady = true;
-      console.log("🎉 Firebase fully initialized and ready!");
-
-    } catch(e) {
-      console.error("❌ FATAL: Firebase initialization error:", e);
-      console.error("❌ Error type:", e.constructor.name);
-      console.error("❌ Error message:", e.message);
-      console.error("❌ Error stack:", e.stack);
-
-      // On iOS Safari, some Firebase features may fail - try graceful degradation
-      if (isIOSSafari) {
-        console.warn("⚠️ [iOS Safari] Attempting graceful degradation...");
-        console.warn("⚠️ [iOS Safari] Some real-time features may be limited");
-
-        // Try to at least mark Firebase as partially ready
-        window.firebaseReady = false; // Keep false to signal limited functionality
-        window.firebaseError = e.message;
-
-        // Don't show error page immediately on iOS Safari - let Flutter handle it
-        console.warn("⚠️ [iOS Safari] Continuing with limited Firebase functionality");
-      } else {
-        console.error("❌ App will not function properly");
-
-        // Show error to user on non-iOS platforms
-        document.body.innerHTML = `
-          <div style="display: flex; justify-content: center; align-items: center; height: 100vh; background: #1a1a1a; color: white; font-family: sans-serif; text-align: center; padding: 20px;">
-            <div>
-              <h1>🔥 Firebase Initialization Error</h1>
-              <p style="color: #ff6b6b;">${e.message}</p>
-              <p>Please refresh the page or contact support.</p>
-              <button onclick="location.reload()" style="margin-top: 20px; padding: 10px 20px; background: #4ade80; border: none; border-radius: 5px; color: black; font-weight: bold; cursor: pointer;">
-                Refresh Page
-              </button>
-            </div>
-          </div>
-        `;
-      }
-    }
   </script>
   
   <script>
     // APP VERSION - Increment this to force cache clear
-    window.APP_VERSION = "1.0.3-firebase-sync-load";
+    window.APP_VERSION = "1.0.4-dart-firebase-only";
     console.log("📱 [DEBUG] App Version:", window.APP_VERSION);
-    console.log("📱 [DEBUG] Firebase Ready Status:", window.firebaseReady);
     console.log("🚀 [DEBUG] Flutter config initialization starting...");
     console.log("User Agent:", navigator.userAgent);
     console.log("Is iOS Safari:", /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream);
