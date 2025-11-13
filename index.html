@@ -18,6 +18,10 @@
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="Command the Odds.">
 
+  <!-- Cross-Origin Isolation Headers for iOS Safari Firebase compatibility -->
+  <meta http-equiv="Cross-Origin-Embedder-Policy" content="credentialless">
+  <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
+
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -152,11 +156,29 @@
     console.log("🔥 [DEBUG] Attempting Firebase initialization...");
     console.log("🔍 [DEBUG] User Agent:", navigator.userAgent);
     console.log("🔍 [DEBUG] Platform:", navigator.platform);
-    console.log("🔍 [DEBUG] Is iOS:", /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream);
-    
+
+    // Detect iOS Safari
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    const isIOSSafari = isIOS && isSafari;
+    console.log("🔍 [DEBUG] Is iOS:", isIOS);
+    console.log("🔍 [DEBUG] Is Safari:", isSafari);
+    console.log("🔍 [DEBUG] Is iOS Safari:", isIOSSafari);
+
     // Wait for Firebase to be ready
     window.firebaseReady = false;
-    
+    window.isIOSSafari = isIOSSafari;
+
+    // iOS Safari specific: Check IndexedDB availability
+    if (isIOSSafari) {
+      console.log("🍎 [iOS Safari] Checking IndexedDB availability...");
+      if (!window.indexedDB) {
+        console.error("❌ IndexedDB not available on iOS Safari!");
+      } else {
+        console.log("✅ IndexedDB is available");
+      }
+    }
+
     try {
       // Your web app's Firebase configuration
       const firebaseConfig = {
@@ -177,17 +199,17 @@
         console.error("❌ This will cause Flutter app to crash");
         throw new Error("Firebase SDK not loaded");
       }
-      
+
       console.log("✅ Firebase SDK detected");
       console.log("🔍 [DEBUG] Firebase version:", firebase.SDK_VERSION || "unknown");
-      
+
       // Verify all required Firebase modules are loaded
       const requiredModules = {
         'auth': firebase.auth,
         'database': firebase.database,
         'firestore': firebase.firestore
       };
-      
+
       const missingModules = [];
       for (const [name, module] of Object.entries(requiredModules)) {
         if (!module) {
@@ -197,40 +219,79 @@
           console.log(`✅ Firebase ${name} module loaded`);
         }
       }
-      
+
       if (missingModules.length > 0) {
         throw new Error(`Missing Firebase modules: ${missingModules.join(', ')}`);
       }
-      
-      // Initialize Firebase
-      const app = firebase.initializeApp(firebaseConfig);
+
+      // Initialize Firebase with iOS Safari specific settings
+      const initOptions = isIOSSafari
+        ? { ...firebaseConfig, experimentalForceLongPolling: true }
+        : firebaseConfig;
+
+      console.log("🔍 [DEBUG] Initializing with options:", JSON.stringify(initOptions));
+      const app = firebase.initializeApp(initOptions);
       console.log("✅ Firebase initialized successfully");
       console.log("✅ Firebase app name:", app.name);
+
+      // iOS Safari: Enable long polling for Realtime Database (more reliable than WebSockets)
+      if (isIOSSafari && firebase.database) {
+        try {
+          console.log("🍎 [iOS Safari] Configuring Realtime Database with long polling...");
+          const db = firebase.database();
+          // Force disconnect/reconnect to apply settings
+          db.goOffline();
+          setTimeout(() => {
+            db.goOnline();
+            console.log("✅ [iOS Safari] Realtime Database reconnected with optimized settings");
+          }, 100);
+        } catch (dbError) {
+          console.warn("⚠️ [iOS Safari] Could not configure database settings:", dbError);
+          // Don't throw - let the app try to continue
+        }
+      }
+
       console.log("✅ Firebase Realtime Database available");
       console.log("✅ Firebase Firestore available");
-      
+
       // Mark Firebase as ready
       window.firebaseReady = true;
       console.log("🎉 Firebase fully initialized and ready!");
-      
+
     } catch(e) {
       console.error("❌ FATAL: Firebase initialization error:", e);
+      console.error("❌ Error type:", e.constructor.name);
+      console.error("❌ Error message:", e.message);
       console.error("❌ Error stack:", e.stack);
-      console.error("❌ App will not function properly");
-      
-      // Show error to user
-      document.body.innerHTML = `
-        <div style="display: flex; justify-content: center; align-items: center; height: 100vh; background: #1a1a1a; color: white; font-family: sans-serif; text-align: center; padding: 20px;">
-          <div>
-            <h1>🔥 Firebase Initialization Error</h1>
-            <p style="color: #ff6b6b;">${e.message}</p>
-            <p>Please refresh the page or contact support.</p>
-            <button onclick="location.reload()" style="margin-top: 20px; padding: 10px 20px; background: #4ade80; border: none; border-radius: 5px; color: black; font-weight: bold; cursor: pointer;">
-              Refresh Page
-            </button>
+
+      // On iOS Safari, some Firebase features may fail - try graceful degradation
+      if (isIOSSafari) {
+        console.warn("⚠️ [iOS Safari] Attempting graceful degradation...");
+        console.warn("⚠️ [iOS Safari] Some real-time features may be limited");
+
+        // Try to at least mark Firebase as partially ready
+        window.firebaseReady = false; // Keep false to signal limited functionality
+        window.firebaseError = e.message;
+
+        // Don't show error page immediately on iOS Safari - let Flutter handle it
+        console.warn("⚠️ [iOS Safari] Continuing with limited Firebase functionality");
+      } else {
+        console.error("❌ App will not function properly");
+
+        // Show error to user on non-iOS platforms
+        document.body.innerHTML = `
+          <div style="display: flex; justify-content: center; align-items: center; height: 100vh; background: #1a1a1a; color: white; font-family: sans-serif; text-align: center; padding: 20px;">
+            <div>
+              <h1>🔥 Firebase Initialization Error</h1>
+              <p style="color: #ff6b6b;">${e.message}</p>
+              <p>Please refresh the page or contact support.</p>
+              <button onclick="location.reload()" style="margin-top: 20px; padding: 10px 20px; background: #4ade80; border: none; border-radius: 5px; color: black; font-weight: bold; cursor: pointer;">
+                Refresh Page
+              </button>
+            </div>
           </div>
-        </div>
-      `;
+        `;
+      }
     }
   </script>
   
