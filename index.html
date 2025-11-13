@@ -166,9 +166,10 @@
     console.log("User Agent:", navigator.userAgent);
     console.log("Is iOS Safari:", /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream);
     
-    // Force HTML renderer for iOS Safari compatibility
+    // CRITICAL: Disable WASM completely
+    window.flutterCanvasKitForceOff = true;
     window.flutterWebRenderer = "html";
-    console.log("✅ [DEBUG] Set window.flutterWebRenderer = 'html'");
+    console.log("✅ [DEBUG] Disabled WASM and forced HTML renderer");
     
     // Initialize _flutter if it doesn't exist yet
     if (!window._flutter) {
@@ -176,15 +177,27 @@
       console.log("✅ [DEBUG] Created window._flutter object");
     }
     
-    // Override the build config with HTML renderer
+    // Override the build config with HTML renderer ONLY
     window._flutter.buildConfig = {
       "engineRevision": "d3d45dcf251823c1769909cd43698d126db38deb",
       "builds": [
         {"compileTarget": "dart2js", "renderer": "html", "mainJsPath": "main.dart.js"}
       ]
     };
-    console.log("✅ [DEBUG] Overridden build config to use HTML renderer");
-    console.log("Build config:", window._flutter.buildConfig);
+    
+    // Disable service worker completely
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for(var registration of registrations) {
+          registration.unregister();
+          console.log("✅ [DEBUG] Unregistered service worker");
+        }
+      }).catch(function(err) {
+        console.log("Service Worker unregister error:", err);
+      });
+    }
+    
+    console.log("✅ [DEBUG] Build config:", JSON.stringify(window._flutter.buildConfig));
     
     // Add global error handler with more detail
     window.addEventListener('error', function(e) {
@@ -195,6 +208,7 @@
         colno: e.colno,
         error: e.error ? e.error.stack : "no stack trace"
       });
+      return false; // Don't suppress default error handling
     });
     
     window.addEventListener('unhandledrejection', function(event) {
