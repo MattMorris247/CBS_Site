@@ -34,9 +34,15 @@
   <title>bumpbets</title>
   <link rel="manifest" href="manifest.json">
   
-  <!-- Firebase will be initialized by the Flutter app -->
+  <!-- Load Firebase JavaScript SDK for web platform -->
+  <!-- Using modular v10.7.1 to match firebase_core_web 3.3.0 expectations -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js"></script>
   <script>
-    console.log("📦 [DEBUG] Firebase will be initialized by Flutter Dart code");
+    console.log("📦 [DEBUG] Firebase JavaScript SDK loaded (modular v10.7.1)");
+    console.log("📦 [DEBUG] Flutter's firebase_core will initialize Firebase");
   </script>
   
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
