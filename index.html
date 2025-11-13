@@ -36,6 +36,8 @@
   </script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js" onload="console.log('✅ Firebase app loaded')" onerror="console.error('❌ Firebase app failed to load')"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js" onload="console.log('✅ Firebase auth loaded')" onerror="console.error('❌ Firebase auth failed to load')"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js" onload="console.log('✅ Firebase database loaded')" onerror="console.error('❌ Firebase database failed to load')"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js" onload="console.log('✅ Firebase firestore loaded')" onerror="console.error('❌ Firebase firestore failed to load')"></script>
   
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
   
@@ -136,11 +138,16 @@
   <!-- Firebase Initialization -->
   <script>
     console.log("🔥 [DEBUG] Attempting Firebase initialization...");
+    console.log("🔍 [DEBUG] User Agent:", navigator.userAgent);
+    console.log("🔍 [DEBUG] Platform:", navigator.platform);
+    console.log("🔍 [DEBUG] Is iOS:", /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream);
+    
     try {
       // Your web app's Firebase configuration
       const firebaseConfig = {
         apiKey: "AIzaSyA2wZNO2uQ7RAVEck5MHStZmiZLLuDH0io",
         authDomain: "csbets-63b40.firebaseapp.com",
+        databaseURL: "https://csbets-63b40-default-rtdb.firebaseio.com",
         projectId: "csbets-63b40",
         storageBucket: "csbets-63b40.appspot.com",
         messagingSenderId: "184663515781",
@@ -148,16 +155,35 @@
         measurementId: "G-LRDNEWD5LB"
       };
 
+      console.log("🔍 [DEBUG] Firebase config:", JSON.stringify(firebaseConfig));
+
       if (typeof firebase === 'undefined') {
         console.error("❌ Firebase SDK not loaded yet!");
       } else {
         console.log("✅ Firebase SDK detected");
+        console.log("🔍 [DEBUG] Firebase version:", firebase.SDK_VERSION || "unknown");
+        
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
         console.log("✅ Firebase initialized successfully");
+        
+        // Verify database is available
+        if (firebase.database) {
+          console.log("✅ Firebase Realtime Database available");
+        } else {
+          console.warn("⚠️ Firebase Realtime Database not available");
+        }
+        
+        // Verify Firestore is available
+        if (firebase.firestore) {
+          console.log("✅ Firebase Firestore available");
+        } else {
+          console.warn("⚠️ Firebase Firestore not available");
+        }
       }
     } catch(e) {
       console.error("❌ Firebase initialization error:", e);
+      console.error("❌ Error stack:", e.stack);
     }
   </script>
   
