@@ -31,8 +31,11 @@
   <link rel="manifest" href="manifest.json">
   
   <!-- Firebase Configuration -->
-  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+  <script>
+    console.log("📦 [DEBUG] Loading Firebase libraries...");
+  </script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js" onload="console.log('✅ Firebase app loaded')" onerror="console.error('❌ Firebase app failed to load')"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js" onload="console.log('✅ Firebase auth loaded')" onerror="console.error('❌ Firebase auth failed to load')"></script>
   
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
   
@@ -132,23 +135,36 @@
   
   <!-- Firebase Initialization -->
   <script>
-    // Your web app's Firebase configuration
-    const firebaseConfig = {
-      apiKey: "AIzaSyA2wZNO2uQ7RAVEck5MHStZmiZLLuDH0io",
-      authDomain: "csbets-63b40.firebaseapp.com",
-      projectId: "csbets-63b40",
-      storageBucket: "csbets-63b40.appspot.com",
-      messagingSenderId: "184663515781",
-      appId: "1:184663515781:web:0f16438b2ba66855a43fec",
-      measurementId: "G-LRDNEWD5LB"
-    };
+    console.log("🔥 [DEBUG] Attempting Firebase initialization...");
+    try {
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyA2wZNO2uQ7RAVEck5MHStZmiZLLuDH0io",
+        authDomain: "csbets-63b40.firebaseapp.com",
+        projectId: "csbets-63b40",
+        storageBucket: "csbets-63b40.appspot.com",
+        messagingSenderId: "184663515781",
+        appId: "1:184663515781:web:0f16438b2ba66855a43fec",
+        measurementId: "G-LRDNEWD5LB"
+      };
 
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+      if (typeof firebase === 'undefined') {
+        console.error("❌ Firebase SDK not loaded yet!");
+      } else {
+        console.log("✅ Firebase SDK detected");
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        console.log("✅ Firebase initialized successfully");
+      }
+    } catch(e) {
+      console.error("❌ Firebase initialization error:", e);
+    }
   </script>
   
   <script>
     console.log("🚀 [DEBUG] Flutter config initialization starting...");
+    console.log("User Agent:", navigator.userAgent);
+    console.log("Is iOS Safari:", /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream);
     
     // Force HTML renderer for iOS Safari compatibility
     window.flutterWebRenderer = "html";
@@ -168,18 +184,27 @@
     // Disable service worker to avoid GitHub Pages issues
     _flutter.loader = _flutter.loader || {};
     
-    // Add global error handler
+    // Add global error handler with more detail
     window.addEventListener('error', function(e) {
-      console.error("❌ [FATAL ERROR]", e.message, e.filename, e.lineno, e.colno);
+      console.error("❌ [FATAL ERROR]", {
+        message: e.message,
+        filename: e.filename,
+        lineno: e.lineno,
+        colno: e.colno,
+        error: e.error ? e.error.stack : "no stack trace"
+      });
     });
     
     window.addEventListener('unhandledrejection', function(event) {
       console.error("❌ [UNHANDLED REJECTION]", event.reason);
+      if (event.reason && event.reason.stack) {
+        console.error("Stack trace:", event.reason.stack);
+      }
     });
     
     console.log("✅ [DEBUG] All initialization complete, awaiting flutter_bootstrap.js...");
   </script>
-  <script src="flutter_bootstrap.js" async=""></script>
+  <script src="flutter_bootstrap.js" defer></script>
 
 
   <div id="recaptcha-container"></div>
