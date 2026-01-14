@@ -2676,7 +2676,7 @@ equatable
 
 MIT License
 
-Copyright (c) 2024 Felix Angelov
+Copyright (c) 2026 Felix Angelov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -11283,6 +11283,7 @@ video_player
 video_player_android
 video_player_avfoundation
 video_player_platform_interface
+webview_flutter
 webview_flutter_wkwebview
 
 Copyright 2013 The Flutter Authors
@@ -25283,7 +25284,6 @@ shared_preferences_windows
 url_launcher
 url_launcher_platform_interface
 video_player_web
-webview_flutter
 webview_flutter_platform_interface
 xdg_directories
 
