@@ -1,11 +1,11 @@
 {
-    "name": "Bump",
-    "short_name": "Bump",
+    "name": "Fuel Factor",
+    "short_name": "Fuel Factor",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#040A0D",
+    "background_color": "#000000",
     "theme_color": "#0175C2",
-    "description": "Command the Odds.",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
