@@ -1,537 +1,539 @@
 {
-   "responses": [
-       {
-         "title": "Longest Pass Completion",
-         "primary_is_home": true, 
-         "primary_team_detail":{
-            "abbreviation":"ATL",
-            "logo_link":"https://a.espncdn.com/i/teamlogos/mlb/500/atl.png",
-            "name":"Atlanta Braves",
-            "color": "#0c2340",
-            "record":"0 - 0"
-         },
-         "secondary_team_detail":{
-            "abbreviation":"BOS",
-            "logo_link":"https://a.espncdn.com/i/teamlogos/mlb/500/bos.png",
-            "name":"Boston Red Sox",
-            "color": "#0d2b56",
-            "record":"0 - 0"
-         },
-           "event_id": "58fffb39be568060f51a0c4ee0913d73",
-           "market": "batter_total_bases",
-           "over_bet_details": {
-            "1.5": [
-               {
-                   "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.520135482&selectionId=65312398",
-                   "bookmaker": "fanduel",
-                   "odds": -10000.0
-               },
-               {
-                   "bet_link": "https://sportsbook.draftkings.com/event/32594705?outcomes=0QA266150784%23298432396_13L84240Q1-44994196Q20",
-                   "bookmaker": "draftkings",
-                   "odds": -10.0
-               },
-               {
-                   "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=eb47c462-f7d7-3c94-9725-08efde1b8a97",
-                   "bookmaker": "williamhill_us",
-                   "odds": -100.0
-               },
-               {
-                   "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036716?coupon={pickType}|3825787998|{wagerAmount}",
-                   "bookmaker": "betrivers",
-                   "odds": -1000.0
-               },
-               {
-                   "bet_link": "https://sports.{state}.betmgm.com/en/sports?options=17862933-1343294924--493459350&type=Single",
-                   "bookmaker": "betmgm",
-                   "odds": -125.0
-               }
-           ],   "2.5": [
-            {
-                "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.520135482&selectionId=65312398",
-                "bookmaker": "fanduel",
-                "odds": -1000.0
-            },
-            {
-                "bet_link": "https://sportsbook.draftkings.com/event/32594705?outcomes=0QA266150784%23298432396_13L84240Q1-44994196Q20",
-                "bookmaker": "draftkings",
-                "odds": -115.0
-            },
-            {
-                "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=eb47c462-f7d7-3c94-9725-08efde1b8a97",
-                "bookmaker": "williamhill_us",
-                "odds": -115.0
-            },
-            {
-                "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036716?coupon={pickType}|3825787998|{wagerAmount}",
-                "bookmaker": "betrivers",
-                "odds": -120.0
-            },
-            {
-                "bet_link": "https://sports.{state}.betmgm.com/en/sports?options=17862933-1343294924--493459350&type=Single",
-                "bookmaker": "betmgm",
-                "odds": -125.0
-            }
-        ]
-           },
-           "player_details": {
-            "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/32767.png",
-            "jersey_number": 28,
-            "name": "Stetson Bennett IV",
-            "position": "1B"
-        },
-           "sport": "baseball_mlb",
-           "start_time": "2025-08-02T02:05:52Z",
-           "under_bet_details": {
-            "1.5": [
-               {
-                   "bet_link": "",
-                   "bookmaker": "fanduel",
-                   "odds": -122.0
-               },
-               {
-                   "bet_link": "https://sportsbook.draftkings.com/event/32594705?outcomes=0QA266150784%23298432408_13L84240Q146447124Q20",
-                   "bookmaker": "draftkings",
-                   "odds": -115.0
-               },
-               {
-                   "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=694935a1-de8b-3970-9c7e-dcf03831fd63",
-                   "bookmaker": "williamhill_us",
-                   "odds": -115.0
-               },
-               {
-                   "bet_link": "",
-                   "bookmaker": "betrivers",
-                   "odds": 0.0
-               },
-               {
-                   "bet_link": "https://sports.{state}.betmgm.com/en/sports?options=17862933-1343294924--493459349&type=Single",
-                   "bookmaker": "betmgm",
-                   "odds": -110.0
-               }
-           ],
-           "2.5": [
-            {
-                "bet_link": "",
-                "bookmaker": "draftkings",
-                "odds": -125.0
-            },
-            {
-                "bet_link": "https://sportsbook.draftkings.com/event/32594705?outcomes=0QA266150784%23298432408_13L84240Q146447124Q20",
-                "bookmaker": "draftkings",
-                "odds": -115.0
-            },
-            {
-                "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=694935a1-de8b-3970-9c7e-dcf03831fd63",
-                "bookmaker": "williamhill_us",
-                "odds": -115.0
-            },
-            {
-                "bet_link": "",
-                "bookmaker": "betrivers",
-                "odds": 0.0
-            },
-            {
-                "bet_link": "https://sports.{state}.betmgm.com/en/sports?options=17862933-1343294924--493459349&type=Single",
-                "bookmaker": "betmgm",
-                "odds": -110.0
-            }
-        ]
-           }
-       },
-       
-    
+  "responses": [
     {
-        "away_team_details":{
-           "abbreviation":"MIA",
-           "logo_link":"https://a.espncdn.com/i/teamlogos/mlb/500/mia.png",
-           "name":"Miami Marlins",
-           "color": "#00a3e0",
-           "record":"",
-           "title":"Miami Marlins | Total"
+      "title": "Longest Pass Completion",
+      "is_player_prop": true,
+      "is_yes_no_player_prop": true,
+      "primary_is_home": true,
+      "primary_team_detail": {
+        "abbreviation": "ATL",
+        "logo_link": "https://a.espncdn.com/i/teamlogos/mlb/500/atl.png",
+        "name": "Atlanta Braves",
+        "color": "#0c2340",
+        "record": "0 - 0"
+      },
+      "secondary_team_detail": {
+        "abbreviation": "BOS",
+        "logo_link": "https://a.espncdn.com/i/teamlogos/mlb/500/bos.png",
+        "name": "Boston Red Sox",
+        "color": "#0d2b56",
+        "record": "0 - 0"
+      },
+      "event_id": "58fffb39be568060f51a0c4ee0913d73",
+      "market": "batter_total_bases",
+      "over_bet_details": {
+        "1.5": [
+          {
+            "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.520135482&selectionId=65312398",
+            "bookmaker": "fanduel",
+            "odds": -10000.0
+          },
+          {
+            "bet_link": "https://sportsbook.draftkings.com/event/32594705?outcomes=0QA266150784%23298432396_13L84240Q1-44994196Q20",
+            "bookmaker": "draftkings",
+            "odds": -10.0
+          },
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=eb47c462-f7d7-3c94-9725-08efde1b8a97",
+            "bookmaker": "williamhill_us",
+            "odds": -100.0
+          },
+          {
+            "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036716?coupon={pickType}|3825787998|{wagerAmount}",
+            "bookmaker": "betrivers",
+            "odds": -1000.0
+          },
+          {
+            "bet_link": "https://sports.{state}.betmgm.com/en/sports?options=17862933-1343294924--493459350&type=Single",
+            "bookmaker": "betmgm",
+            "odds": -125.0
+          }
+        ],
+        "2.5": [
+          {
+            "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.520135482&selectionId=65312398",
+            "bookmaker": "fanduel",
+            "odds": -1000.0
+          },
+          {
+            "bet_link": "https://sportsbook.draftkings.com/event/32594705?outcomes=0QA266150784%23298432396_13L84240Q1-44994196Q20",
+            "bookmaker": "draftkings",
+            "odds": -115.0
+          },
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=eb47c462-f7d7-3c94-9725-08efde1b8a97",
+            "bookmaker": "williamhill_us",
+            "odds": -115.0
+          },
+          {
+            "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036716?coupon={pickType}|3825787998|{wagerAmount}",
+            "bookmaker": "betrivers",
+            "odds": -120.0
+          },
+          {
+            "bet_link": "https://sports.{state}.betmgm.com/en/sports?options=17862933-1343294924--493459350&type=Single",
+            "bookmaker": "betmgm",
+            "odds": -125.0
+          }
+        ]
+      },
+      "player_details": {
+        "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/32767.png",
+        "jersey_number": 28,
+        "name": "Stetson Bennett IV",
+        "position": "1B"
+      },
+      "sport": "baseball_mlb",
+      "start_time": "2025-08-02T02:05:52Z",
+      "under_bet_details": {
+        "1.5": [
+          {
+            "bet_link": "",
+            "bookmaker": "fanduel",
+            "odds": -122.0
+          },
+          {
+            "bet_link": "https://sportsbook.draftkings.com/event/32594705?outcomes=0QA266150784%23298432408_13L84240Q146447124Q20",
+            "bookmaker": "draftkings",
+            "odds": -115.0
+          },
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=694935a1-de8b-3970-9c7e-dcf03831fd63",
+            "bookmaker": "williamhill_us",
+            "odds": -115.0
+          },
+          {
+            "bet_link": "",
+            "bookmaker": "betrivers",
+            "odds": 0.0
+          },
+          {
+            "bet_link": "https://sports.{state}.betmgm.com/en/sports?options=17862933-1343294924--493459349&type=Single",
+            "bookmaker": "betmgm",
+            "odds": -110.0
+          }
+        ],
+        "2.5": [
+          {
+            "bet_link": "",
+            "bookmaker": "draftkings",
+            "odds": -125.0
+          },
+          {
+            "bet_link": "https://sportsbook.draftkings.com/event/32594705?outcomes=0QA266150784%23298432408_13L84240Q146447124Q20",
+            "bookmaker": "draftkings",
+            "odds": -115.0
+          },
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=694935a1-de8b-3970-9c7e-dcf03831fd63",
+            "bookmaker": "williamhill_us",
+            "odds": -115.0
+          },
+          {
+            "bet_link": "",
+            "bookmaker": "betrivers",
+            "odds": 0.0
+          },
+          {
+            "bet_link": "https://sports.{state}.betmgm.com/en/sports?options=17862933-1343294924--493459349&type=Single",
+            "bookmaker": "betmgm",
+            "odds": -110.0
+          }
+        ]
+      }
+    },
+
+    {
+      "away_team_details": {
+        "abbreviation": "MIA",
+        "logo_link": "https://a.espncdn.com/i/teamlogos/mlb/500/mia.png",
+        "name": "Miami Marlins",
+        "color": "#00a3e0",
+        "record": "",
+        "title": "Miami Marlins | Total"
+      },
+      "event_id": "156af101f7e69d7ad099b3032da185a2",
+      "home_team_details": {
+        "abbreviation": "CIN",
+        "logo_link": "https://a.espncdn.com/i/teamlogos/mlb/500/cin.png",
+        "name": "Cincinnati Reds",
+        "color": "#c6011f",
+        "record": "",
+        "title": "Cincinnati Reds | Total"
+      },
+      "league": "MLB",
+      "market": "totals",
+      "over_bet_details": {
+        "9.0": [
+          {
+            "bet_link": "betlink1",
+            "bookmaker": "williamhill_us",
+            "odds": -10000.0
+          },
+          {
+            "bet_link": "betlink2",
+            "bookmaker": "draftkings",
+            "odds": -135.0
+          },
+          {
+            "bet_link": "betlink3",
+            "bookmaker": "fanduel",
+            "odds": -145.0
+          },
+          {
+            "bet_link": "betlink4",
+            "bookmaker": "betrivers",
+            "odds": -155.0
+          },
+          {
+            "bet_link": "betlink5",
+            "bookmaker": "betmgm",
+            "odds": -165.0
+          },
+          {
+            "bet_link": "betlink6",
+            "bookmaker": "espn bet",
+            "odds": -175.0
+          }
+        ],
+        "10.0": [
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          },
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          },
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          }
+        ],
+        "100.0": [
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          },
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          },
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          }
+        ],
+        "1000.0": [
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          },
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          },
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          }
+        ],
+        "10000.0": [
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          },
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          },
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          }
+        ],
+        "50.0": [
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          },
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          },
+          {
+            "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
+            "bookmaker": "williamhill_us",
+            "odds": -125.0
+          }
+        ],
+        "9.5": [
+          {
+            "bet_link": "https://sportsbook.draftkings.com/event/32508772?outcomes=0OU80536005O950_1",
+            "bookmaker": "draftkings",
+            "odds": 101.0
+          },
+          {
+            "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371340&selectionId=7017905",
+            "bookmaker": "fanduel",
+            "odds": -105.0
+          },
+          {
+            "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371340&selectionId=7017905",
+            "bookmaker": "fanduel",
+            "odds": -105.0
+          },
+          {
+            "bet_link": "https://sportsbook.draftkings.com/event/32508772?outcomes=0OU80536005O950_1",
+            "bookmaker": "draftkings",
+            "odds": 101.0
+          },
+          {
+            "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801473021|{wagerAmount}",
+            "bookmaker": "betrivers",
+            "odds": -104.0
+          },
+          {
+            "bet_link": "https://sportsbook.draftkings.com/event/32508772?outcomes=0OU80536005O950_1",
+            "bookmaker": "draftkings",
+            "odds": 101.0
+          },
+          {
+            "bet_link": "https://sportsbook.draftkings.com/event/32508772?outcomes=0OU80536005O950_1",
+            "bookmaker": "draftkings",
+            "odds": 101.0
+          },
+          {
+            "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801473021|{wagerAmount}",
+            "bookmaker": "betrivers",
+            "odds": -104.0
+          },
+          {
+            "bet_link": "https://sports.{state}.betmgm.com/en/sports?options=17827233-1330988098--525417125&type=Single",
+            "bookmaker": "betmgm",
+            "odds": 100.0
+          },
+          {
+            "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371340&selectionId=7017905",
+            "bookmaker": "fanduel",
+            "odds": -105.0
+          },
+          {
+            "bet_link": "https://sports.{state}.betmgm.com/en/sports?options=17827233-1330988098--525417125&type=Single",
+            "bookmaker": "betmgm",
+            "odds": 100.0
+          },
+          {
+            "bet_link": "https://sports.{state}.betmgm.com/en/sports?options=17827233-1330988098--525417125&type=Single",
+            "bookmaker": "betmgm",
+            "odds": 100.0
+          },
+          {
+            "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371340&selectionId=7017905",
+            "bookmaker": "fanduel",
+            "odds": -105.0
+          }
+        ]
+      },
+      "sport": "baseball_mlb",
+      "start_time": "2025-07-10T21:11:00Z",
+      "under_bet_details": {
+        "9.0": [
+          {
+            "bet_link": "betlink1",
+            "bookmaker": "williamhill_us",
+            "odds": 105.0
+          },
+          {
+            "bet_link": "betlink2",
+            "bookmaker": "williamhill_us",
+            "odds": 105.0
+          },
+          {
+            "bet_link": "betlink3",
+            "bookmaker": "williamhill_us",
+            "odds": 105.0
+          },
+          {
+            "bet_link": "betlink4",
+            "bookmaker": "williamhill_us",
+            "odds": 105.0
+          }
+        ],
+        "9.5": [
+          {
+            "bet_link": "https://sportsbook.draftkings.com/event/32508772?outcomes=0OU80536005U950_3",
+            "bookmaker": "draftkings",
+            "odds": -122.0
+          },
+          {
+            "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371340&selectionId=7017906",
+            "bookmaker": "fanduel",
+            "odds": -115.0
+          },
+          {
+            "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371340&selectionId=7017906",
+            "bookmaker": "fanduel",
+            "odds": -115.0
+          },
+          {
+            "bet_link": "https://sportsbook.draftkings.com/event/32508772?outcomes=0OU80536005U950_3",
+            "bookmaker": "draftkings",
+            "odds": -122.0
+          },
+          {
+            "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801473022|{wagerAmount}",
+            "bookmaker": "betrivers",
+            "odds": -120.0
+          },
+          {
+            "bet_link": "https://sportsbook.draftkings.com/event/32508772?outcomes=0OU80536005U950_3",
+            "bookmaker": "draftkings",
+            "odds": -122.0
+          }
+        ]
+      }
+    },
+    {
+      "event_id": "156af101f7e69d7ad099b3032da185a3",
+      "league": "MLB",
+      "market": "spreads",
+      "primary_is_home": false,
+      "primary_team_detail": {
+        "abbreviation": "MIA",
+        "bet_details": {
+          "5": [
+            {
+              "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
+              "bookmaker": "betrivers",
+              "odds": -99999.0
+            },
+            {
+              "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371342&selectionId=6266193",
+              "bookmaker": "fanduel",
+              "odds": -126.0
+            },
+            {
+              "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
+              "bookmaker": "betrivers",
+              "odds": -143.0
+            }
+          ],
+          "12": [
+            {
+              "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
+              "bookmaker": "betrivers",
+              "odds": -143.0
+            },
+            {
+              "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371342&selectionId=6266193",
+              "bookmaker": "fanduel",
+              "odds": -126.0
+            },
+            {
+              "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
+              "bookmaker": "betrivers",
+              "odds": -143.0
+            }
+          ],
+          "120": [
+            {
+              "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
+              "bookmaker": "betrivers",
+              "odds": -143.0
+            },
+            {
+              "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371342&selectionId=6266193",
+              "bookmaker": "fanduel",
+              "odds": -126.0
+            },
+            {
+              "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
+              "bookmaker": "betrivers",
+              "odds": -143.0
+            }
+          ],
+          "1200.0": [
+            {
+              "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
+              "bookmaker": "betrivers",
+              "odds": -143.0
+            },
+            {
+              "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371342&selectionId=6266193",
+              "bookmaker": "fanduel",
+              "odds": -126.0
+            },
+            {
+              "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
+              "bookmaker": "betrivers",
+              "odds": -143.0
+            }
+          ],
+          "12000.0": [
+            {
+              "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
+              "bookmaker": "betrivers",
+              "odds": -143.0
+            },
+            {
+              "bet_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371342&selectionId=6266193",
+              "bookmaker": "fanduel",
+              "odds": -126.0
+            },
+            {
+              "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
+              "bookmaker": "betrivers",
+              "odds": -143.0
+            }
+          ]
         },
-        "event_id":"156af101f7e69d7ad099b3032da185a2",
-        "home_team_details":{
-           "abbreviation":"CIN",
-           "logo_link":"https://a.espncdn.com/i/teamlogos/mlb/500/cin.png",
-           "name":"Cincinnati Reds",
-           "color": "#c6011f",
-           "record":"",
-           "title":"Cincinnati Reds | Total"
+        "logo_link": "https://a.espncdn.com/i/teamlogos/mlb/500/mia.png",
+        "name": "Miami Marlins",
+        "color": "#00a3e0",
+        "record": "",
+        "title": "Miami Marlins | Spread"
+      },
+      "secondary_team_detail": {
+        "abbreviation": "CIN",
+        "bet_details": {
+          "-1.5": [
+            {
+              "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472447|{wagerAmount}",
+              "bookmaker": "betrivers",
+              "odds": 114.0
+            },
+            {
+              "bet_link": "https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472447|{wagerAmount}",
+              "bookmaker": "draftkings",
+              "odds": 110.0
+            }
+          ]
         },
-        "league":"MLB",
-        "market":"totals",
-        "over_bet_details":{
-           "9.0":[
-              {
-                 "bet_link":"betlink1",
-                 "bookmaker":"williamhill_us",
-                 "odds":-10000.0
-              },
-              {
-                 "bet_link":"betlink2",
-                 "bookmaker":"draftkings",
-                 "odds":-135.0
-              },
-              {
-                 "bet_link":"betlink3",
-                 "bookmaker":"fanduel",
-                 "odds":-145.0
-              },
-              {
-                 "bet_link":"betlink4",
-                 "bookmaker":"betrivers",
-                 "odds":-155.0
-              },
-              {
-                 "bet_link":"betlink5",
-                 "bookmaker":"betmgm",
-                 "odds":-165.0
-              },
-              {
-                 "bet_link":"betlink6",
-                 "bookmaker":"espn bet",
-                 "odds":-175.0
-              }
-           ],
-           "10.0":[
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              },
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              },
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              }
-           ],
-           "100.0":[
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              },
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              },
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              }
-           ],
-           "1000.0":[
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              },
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              },
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              }
-           ],"10000.0":[
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              },
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              },
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              }
-           ],"50.0":[
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              },
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              },
-              {
-                 "bet_link":"https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=8b6267d1-9032-3813-a1d7-ab4578f03018",
-                 "bookmaker":"williamhill_us",
-                 "odds":-125.0
-              }
-           ],
-           "9.5":[
-              {
-                 "bet_link":"https://sportsbook.draftkings.com/event/32508772?outcomes=0OU80536005O950_1",
-                 "bookmaker":"draftkings",
-                 "odds":101.0
-              },
-              {
-                 "bet_link":"https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371340&selectionId=7017905",
-                 "bookmaker":"fanduel",
-                 "odds":-105.0
-              },
-              {
-                 "bet_link":"https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371340&selectionId=7017905",
-                 "bookmaker":"fanduel",
-                 "odds":-105.0
-              },
-              {
-                 "bet_link":"https://sportsbook.draftkings.com/event/32508772?outcomes=0OU80536005O950_1",
-                 "bookmaker":"draftkings",
-                 "odds":101.0
-              },
-              {
-                 "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801473021|{wagerAmount}",
-                 "bookmaker":"betrivers",
-                 "odds":-104.0
-              },
-              {
-                 "bet_link":"https://sportsbook.draftkings.com/event/32508772?outcomes=0OU80536005O950_1",
-                 "bookmaker":"draftkings",
-                 "odds":101.0
-              },
-              {
-                 "bet_link":"https://sportsbook.draftkings.com/event/32508772?outcomes=0OU80536005O950_1",
-                 "bookmaker":"draftkings",
-                 "odds":101.0
-              },
-              {
-                 "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801473021|{wagerAmount}",
-                 "bookmaker":"betrivers",
-                 "odds":-104.0
-              },
-              {
-                 "bet_link":"https://sports.{state}.betmgm.com/en/sports?options=17827233-1330988098--525417125&type=Single",
-                 "bookmaker":"betmgm",
-                 "odds":100.0
-              },
-              {
-                 "bet_link":"https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371340&selectionId=7017905",
-                 "bookmaker":"fanduel",
-                 "odds":-105.0
-              },
-              {
-                 "bet_link":"https://sports.{state}.betmgm.com/en/sports?options=17827233-1330988098--525417125&type=Single",
-                 "bookmaker":"betmgm",
-                 "odds":100.0
-              },
-              {
-                 "bet_link":"https://sports.{state}.betmgm.com/en/sports?options=17827233-1330988098--525417125&type=Single",
-                 "bookmaker":"betmgm",
-                 "odds":100.0
-              },
-              {
-                 "bet_link":"https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371340&selectionId=7017905",
-                 "bookmaker":"fanduel",
-                 "odds":-105.0
-              }
-             
-           ]
-        },
-        "sport":"baseball_mlb",
-        "start_time":"2025-07-10T21:11:00Z",
-        "under_bet_details":{
-           "9.0":[
-              {
-                 "bet_link":"betlink1",
-                 "bookmaker":"williamhill_us",
-                 "odds":105.0
-              },
-              {
-                 "bet_link":"betlink2",
-                 "bookmaker":"williamhill_us",
-                 "odds":105.0
-              },
-              {
-                 "bet_link":"betlink3",
-                 "bookmaker":"williamhill_us",
-                 "odds":105.0
-              },
-              {
-                 "bet_link":"betlink4",
-                 "bookmaker":"williamhill_us",
-                 "odds":105.0
-              }
-           ],
-           "9.5":[
-              {
-                 "bet_link":"https://sportsbook.draftkings.com/event/32508772?outcomes=0OU80536005U950_3",
-                 "bookmaker":"draftkings",
-                 "odds":-122.0
-              },
-              {
-                 "bet_link":"https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371340&selectionId=7017906",
-                 "bookmaker":"fanduel",
-                 "odds":-115.0
-              },
-              {
-                 "bet_link":"https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371340&selectionId=7017906",
-                 "bookmaker":"fanduel",
-                 "odds":-115.0
-              },
-              {
-                 "bet_link":"https://sportsbook.draftkings.com/event/32508772?outcomes=0OU80536005U950_3",
-                 "bookmaker":"draftkings",
-                 "odds":-122.0
-              },
-              {
-                 "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801473022|{wagerAmount}",
-                 "bookmaker":"betrivers",
-                 "odds":-120.0
-              },
-              {
-                 "bet_link":"https://sportsbook.draftkings.com/event/32508772?outcomes=0OU80536005U950_3",
-                 "bookmaker":"draftkings",
-                 "odds":-122.0
-              }
-           ]
-        }
-     },
-     {
-        "event_id":"156af101f7e69d7ad099b3032da185a3",
-        "league":"MLB",
-        "market":"spreads",
-        "primary_is_home":false,
-        "primary_team_detail":{
-           "abbreviation":"MIA",
-           "bet_details":{
-          
-          "5":[
-                 {
-                    "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
-                    "bookmaker":"betrivers",
-                    "odds":-99999.0
-                 },
-                 {
-                    "bet_link":"https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371342&selectionId=6266193",
-                    "bookmaker":"fanduel",
-                    "odds":-126.0
-                 },
-                 {
-                    "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
-                    "bookmaker":"betrivers",
-                    "odds":-143.0
-                 }
-              ],
-              "12":[
-                 {
-                    "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
-                    "bookmaker":"betrivers",
-                    "odds":-143.0
-                 },
-                 {
-                    "bet_link":"https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371342&selectionId=6266193",
-                    "bookmaker":"fanduel",
-                    "odds":-126.0
-                 },
-                 {
-                    "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
-                    "bookmaker":"betrivers",
-                    "odds":-143.0
-                 }
-              ],  "120":[
-                 {
-                    "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
-                    "bookmaker":"betrivers",
-                    "odds":-143.0
-                 },
-                 {
-                    "bet_link":"https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371342&selectionId=6266193",
-                    "bookmaker":"fanduel",
-                    "odds":-126.0
-                 },
-                 {
-                    "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
-                    "bookmaker":"betrivers",
-                    "odds":-143.0
-                 }
-              ],
-              "1200.0":[
-                {
-                   "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
-                   "bookmaker":"betrivers",
-                   "odds":-143.0
-                },
-                {
-                   "bet_link":"https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371342&selectionId=6266193",
-                   "bookmaker":"fanduel",
-                   "odds":-126.0
-                },
-                {
-                   "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
-                   "bookmaker":"betrivers",
-                   "odds":-143.0
-                }
-             ],
-             "12000.0":[
-                {
-                   "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
-                   "bookmaker":"betrivers",
-                   "odds":-143.0
-                },
-                {
-                   "bet_link":"https://sportsbook.fanduel.com/addToBetslip?marketId=42.515371342&selectionId=6266193",
-                   "bookmaker":"fanduel",
-                   "odds":-126.0
-                },
-                {
-                   "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472445|{wagerAmount}",
-                   "bookmaker":"betrivers",
-                   "odds":-143.0
-                }
-             ]
-           },
-           "logo_link":"https://a.espncdn.com/i/teamlogos/mlb/500/mia.png",
-           "name":"Miami Marlins",
-           "color": "#00a3e0",
-           "record":"",
-           "title":"Miami Marlins | Spread"
-        },
-        "secondary_team_detail":{
-           "abbreviation":"CIN",
-           "bet_details":{
-              "-1.5":[
-                 {
-                    "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472447|{wagerAmount}",
-                    "bookmaker":"betrivers",
-                    "odds":114.0
-                 },
-                 {
-                  "bet_link":"https://{state}.betrivers.com/?page=sportsbook#event/1022036468?coupon={pickType}|3801472447|{wagerAmount}",
-                  "bookmaker":"draftkings",
-                  "odds":110.0
-               }
-                
-              ]
-           },
-           "logo_link":"https://a.espncdn.com/i/teamlogos/mlb/500/cin.png",
-           "name":"Cincinnati Reds",
-           "record":"",
-           "title":"Cincinnati Reds | Spread",
-           "color": "#c6011f"
-        },
-        "sport":"baseball_mlb",
-        "start_time":"2025-07-10T21:11:00Z"
-     },
-     {
+        "logo_link": "https://a.espncdn.com/i/teamlogos/mlb/500/cin.png",
+        "name": "Cincinnati Reds",
+        "record": "",
+        "title": "Cincinnati Reds | Spread",
+        "color": "#c6011f"
+      },
+      "sport": "baseball_mlb",
+      "start_time": "2025-07-10T21:11:00Z"
+    },
+    {
       "event_id": "156af101f7e69d7ad099b3032da185a4",
       "league": "MLB",
       "market": "h2h",
@@ -560,13 +562,11 @@
         "color": "#00a3e0",
         "record": "",
         "title": "Miami Marlins | Moneyline"
-
       },
       "secondary_team_detail": {
         "color": "#c6011f",
         "abbreviation": "CIN",
         "bet_details": [
-          
           {
             "bet_link": "https://sportsbook.caesars.com/us/{state}/bet/betslip?selectionIds=53c45c02-a82c-31c8-b057-aaaa9928d132",
             "bookmaker": "williamhill_us",
@@ -626,5 +626,5 @@
       "sport": "baseball_mlb",
       "start_time": "2025-07-10T21:11:00Z"
     }
-   ]
+  ]
 }
