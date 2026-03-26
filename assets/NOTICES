@@ -1983,6 +1983,7 @@ path_provider_foundation
 shared_preferences
 shared_preferences_android
 shared_preferences_foundation
+shared_preferences_platform_interface
 url_launcher_android
 url_launcher_ios
 url_launcher_linux
@@ -1993,6 +1994,7 @@ video_player_android
 video_player_avfoundation
 video_player_platform_interface
 webview_flutter
+webview_flutter_platform_interface
 webview_flutter_wkwebview
 
 Copyright 2013 The Flutter Authors
@@ -21897,13 +21899,11 @@ path_provider_platform_interface
 path_provider_windows
 plugin_platform_interface
 shared_preferences_linux
-shared_preferences_platform_interface
 shared_preferences_web
 shared_preferences_windows
 url_launcher
 url_launcher_platform_interface
 video_player_web
-webview_flutter_platform_interface
 xdg_directories
 
 Copyright 2013 The Flutter Authors. All rights reserved.
